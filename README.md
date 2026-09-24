@@ -29,11 +29,16 @@ entirely in the browser.
 | `data/pdf/*.json` | Transcription of the winter 2026–27 timetable PDF, used to cross-check the site and for the Bosphorus tours |
 | `data/compare-report.md` | PDF vs site differences (`scripts/compare.py`) |
 | `data/gtfs-durations.json` | Measured crossing times from İBB's open GTFS feed (`scripts/gtfs_durations.py`) |
+| `data/private/lines.json` | Private operators Turyol and Dentur Avrasya from the same GTFS feed (`scripts/gtfs_private.py`) |
 | `site/ferries.json` | The planner's database (`scripts/build_db.py`) |
 
 Some lines only publish departure times (e.g. Kadıköy–Beşiktaş). For those, arrival times are calculated from the
 measured crossing time in İBB open data, else from the same crossing on another current line, else from distance.
 Every calculated time is marked with `est` in the database and `~` in the page.
+
+Some crossings (e.g. Beşiktaş–Üsküdar, Karaköy–Üsküdar) are run by private operators, not Şehir Hatları. They're
+included by default (a checkbox turns them off), labelled with the operator's name and marked approximate: İBB's feed
+dates from 2023–24, and Dentur's frequent lines are published only as "every N minutes".
 
 ## Updating
 

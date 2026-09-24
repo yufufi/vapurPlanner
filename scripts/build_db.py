@@ -69,6 +69,9 @@ def main():
         d = json.load(open(f))
         lines += [L for L in d["lines"] if L.get("tour")]
         notes += d.get("general_notes", [])
+    ppath = os.path.join(ROOT, "data", "private", "lines.json")
+    if os.path.exists(ppath):
+        lines += json.load(open(ppath))["lines"]  # Turyol / Dentur, marked operator + approx
     gtfs = {}
     gpath = os.path.join(ROOT, "data", "gtfs-durations.json")
     if os.path.exists(gpath):
@@ -88,6 +91,8 @@ def main():
     # observed direct travel times between consecutive timed stops
     seg = defaultdict(list)
     for L in lines:
+        if L.get("operator"):
+            continue
         for tr in L["trips"]:
             timed = [s for s in tr["stops"] if "t" in s]
             for a, b in zip(timed, timed[1:]):

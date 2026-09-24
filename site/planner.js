@@ -2,7 +2,7 @@
 //
 // DB shape (ferries.json):
 //   stops: { name: {lat, lon} }
-//   lines: [{ id, name, tour?, trips: [{ id, days:[...], stops:[{stop, t (min), est?: 'gtfs'|'timetable'|'distance', no_board?}], note? }] }]
+//   lines: [{ id, name, tour?, operator? (private operator name), approx?, trips: [{ id, days:[...], headway_min?, stops:[{stop, t (min), est?: 'gtfs'|'timetable'|'distance', no_board?}], note? }] }]
 //   walks: [{a, b, min}]
 // Times are minutes after service-day midnight (may exceed 1440 for after-midnight runs).
 
@@ -51,6 +51,7 @@
     const out = [];
     for (const line of db.lines) {
       if (line.tour && !opts.includeTours) continue;
+      if (line.operator && !opts.includePrivate) continue;
       for (const trip of line.trips) {
         for (const [off, tags] of days) {
           if (!trip.days.some((d) => tags.has(d))) continue;
@@ -157,7 +158,7 @@
   // Plan all Pareto-optimal journeys (later departure / earlier arrival / fewer boats) with a departure
   // inside [depMin, depMin + windowMin].
   function plan(db, origin, dest, date, depMin, opts = {}) {
-    opts = { windowMin: 240, maxRides: 4, transferMin: 3, transferPenalty: 15, allowWalk: false, includeTours: false, ...opts };
+    opts = { windowMin: 240, maxRides: 4, transferMin: 3, transferPenalty: 15, allowWalk: false, includeTours: false, includePrivate: true, maxWaitMin: 120, ...opts };
     const inst = expand(db, date, opts);
     const walks = db.walks || [];
     // candidate departure times: every boat leaving origin (or a walk-neighbour) in the window
@@ -180,12 +181,14 @@
         const lbl = rounds[k].get(dest);
         if (!lbl) continue;
         const legs = fillWalkNames(reconstruct(lbl), origin, dest);
-        if (!legs.length || legs[0].dep < depMin) continue;
+        if (!legs.length || legs[0].dep < depMin || legs[0].dep > depMin + opts.windowMin) continue;
         const key = jkey(legs);
         if (!found.has(key)) found.set(key, legs);
       }
     }
     let js = [...found.values()].map(summarize);
+    // nobody waits hours on a pier for a connection (e.g. overnight for the first morning boat)
+    js = js.filter((j) => j.waits.every((w) => w <= opts.maxWaitMin));
     // Pareto filter: dominated if another departs no earlier, arrives no later, uses no more boats
     // Dominance with a transfer penalty: an extra boat must save at least `transferPenalty` minutes to be worth
     // listing (pure Pareto keeps silly 4-boat detours that beat a 2-boat trip by a few minutes).

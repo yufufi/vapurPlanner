@@ -46,6 +46,7 @@ header .intro { flex: 1 1 320px; }
 .toggles { display: flex; gap: 8px; flex-wrap: wrap; }
 .hm { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
 .estnote { color: var(--funnel); font-size: 12px; }
+.op { font-size: 11px; font-weight: 600; letter-spacing: .03em; padding: 1px 7px; border-radius: 99px; border: 1px solid var(--funnel); color: var(--funnel); white-space: nowrap; }
 header h1 { font: 700 clamp(28px, 5vw, 40px)/1.05 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
 header p { margin: 6px 0 0; color: var(--ink-2); max-width: 62ch; }
 .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
@@ -153,6 +154,7 @@ footer b { color: var(--ink-2); }
         <option value="auto" selected data-i18n="fromDate"></option><option value="weekday" data-i18n="weekday"></option>
         <option value="saturday" data-i18n="saturday"></option><option value="sunday" data-i18n="sunday"></option></select></label>
       <label for="walk"><input type="checkbox" id="walk"> <span data-i18n="walk"></span></label>
+      <label for="private"><input type="checkbox" id="private" checked> <span data-i18n="private"></span></label>
       <label for="tours"><input type="checkbox" id="tours"> <span data-i18n="tours"></span></label>
     </div>
     <div class="daytag" id="daytag"></div>
@@ -165,6 +167,7 @@ footer b { color: var(--ink-2); }
 
   <footer>
     <div data-i18n="fUnofficial"></div>
+    <div data-i18n="fPriv"></div>
     <div data-i18n="fEst"></div>
     <div data-i18n="fHol"></div>
   </footer>
@@ -184,7 +187,7 @@ footer b { color: var(--ink-2); }
       from: 'Nereden', to: 'Nereye', date: 'Tarih', after: 'Kalkış (en erken)', within: 'Şu süre içindeki kalkışlar',
       h2: '2 saat', h4: '4 saat', h8: '8 saat', restOfDay: 'günün geri kalanı',
       xfer: 'En az aktarma süresi', timetable: 'Tarife', fromDate: 'tarihe göre', weekday: 'Hafta içi', saturday: 'Cumartesi',
-      sunday: 'Pazar / tatil', walk: 'Yakın iskeleler arası kısa yürüyüşe izin ver', tours: 'Boğaz turlarını dahil et',
+      sunday: 'Pazar / tatil', private: 'Özel işletme vapurlarını dahil et (Turyol, Dentur · yaklaşık saatler)', walk: 'Yakın iskeleler arası kısa yürüyüşe izin ver', tours: 'Boğaz turlarını dahil et',
       swap: 'Kalkış ve varışı değiştir', hourL: 'Saat', minuteL: 'Dakika',
       using: (d, night) => `<b>${d}</b> tarifesi kullanılıyor${night ? ' (gece seferleri dahil)' : ''}.`,
       dayNames: { weekday: 'Hafta içi', saturday: 'Cumartesi', sunday: 'Pazar / resmi tatil' },
@@ -192,6 +195,7 @@ footer b { color: var(--ink-2); }
       none: (a, b) => `${a} ile ${b} arasında kalkan ve oraya ulaşan bir vapur yok.`,
       widen: 'Günün geri kalanını ara', tryOther: ' Başka bir tarih deneyin ya da iskeleler arası yürüyüşe izin verin.',
       options: (n) => `${n} seçenek · varış saatine göre`,
+      privNote: (op, hw) => `${op} (özel işletme) · saatler 2023–24 İBB açık verisinden, değişmiş olabilir${hw ? ` · yaklaşık ${hw} dakikada bir` : ''}.`,
       earliest: 'En erken varış', quickest: 'En kısa yolculuk', fewest: 'En az aktarma', approx: 'Tahmini varış',
       wait: (m, p) => `${p} iskelesinde ${m} dk bekleme`, walkLeg: 'Yürü', about: (m) => `yaklaşık ${m} dk`,
       onBoard: (m) => `${m} dk yolculuk`, stopsBetween: (n) => `arada ${n} iskele`,
@@ -201,6 +205,7 @@ footer b { color: var(--ink-2); }
              timetable: 'Varış saati yayımlanmıyor; diğer hatlardaki aynı geçişin süresinden hesaplandı.',
              distance: 'Varış saati yayımlanmıyor; mesafeden tahmin edildi.' },
       fUnofficial: '<b>Resmi değildir.</b> Şehir Hatları ile bir bağlantısı yoktur. Veriler sehirhatlari.istanbul sefer sayfalarından ve 2026–27 kış tarifesinden (7 Eylül 2026 – 27 Haziran 2027) alınmıştır. Seferler hava koşulları nedeniyle iptal olabilir, vapur dolunca erken kalkabilir, tarifeler haber verilmeden değişebilir. Yola çıkmadan önce resmi tarifeyi kontrol edin.',
+      fPriv: '<b>Özel işletmeler:</b> Beşiktaş–Üsküdar gibi bazı hatları Şehir Hatları değil Turyol ve Dentur Avrasya işletir. Bu vapurların saatleri İBB açık verisinden (2023–24) alınmıştır ve yaklaşıktır; işletmecinin güncel tarifesini kontrol edin.',
       fEst: '<b><span class="est">~</span> Tahmini saatler:</b> bazı hatlar yalnızca kalkış saatlerini yayımlıyor (ör. Kadıköy–Beşiktaş). Bu varışlar İBB açık verisindeki ölçülmüş geçiş sürelerinden, yoksa mesafeden hesaplanır.',
       fHol: '<b>Resmi ve dini bayramlarda</b> Pazar tarifesi uygulanır (2027: Ramazan Bayramı 9–11 Mart, Kurban Bayramı 16–19 Mayıs).',
     },
@@ -209,7 +214,7 @@ footer b { color: var(--ink-2); }
       from: 'From', to: 'To', date: 'Date', after: 'Leaving after', within: 'Show departures within',
       h2: '2 hours', h4: '4 hours', h8: '8 hours', restOfDay: 'rest of day',
       xfer: 'Min. change time', timetable: 'Timetable', fromDate: 'from date', weekday: 'Weekday', saturday: 'Saturday',
-      sunday: 'Sunday / holiday', walk: 'Allow short walks between nearby piers', tours: 'Include Bosphorus tours',
+      sunday: 'Sunday / holiday', private: 'Include private operators (Turyol, Dentur · approximate times)', walk: 'Allow short walks between nearby piers', tours: 'Include Bosphorus tours',
       swap: 'Swap origin and destination', hourL: 'Hour', minuteL: 'Minute',
       using: (d, night) => `Using the <b>${d}</b> timetable${night ? ' plus night boats' : ''}.`,
       dayNames: { weekday: 'weekday', saturday: 'Saturday', sunday: 'Sunday / holiday' },
@@ -217,6 +222,7 @@ footer b { color: var(--ink-2); }
       none: (a, b) => `No boat gets you there with a departure between ${a} and ${b}.`,
       widen: 'Search the rest of the day', tryOther: ' Try another date, or allow short walks between piers.',
       options: (n) => `${n} option${n > 1 ? 's' : ''} · sorted by arrival`,
+      privNote: (op, hw) => `${op} (private operator) · times from 2023–24 İBB open data and may have changed${hw ? ` · runs about every ${hw} min` : ''}.`,
       earliest: 'Earliest arrival', quickest: 'Quickest trip', fewest: 'Fewest changes', approx: 'Approx. arrival',
       wait: (m, p) => `wait ${m} min at ${p}`, walkLeg: 'Walk', about: (m) => `about ${m} min`,
       onBoard: (m) => `${m} min on board`, stopsBetween: (n) => `${n} stop${n > 1 ? 's' : ''} in between`,
@@ -226,6 +232,7 @@ footer b { color: var(--ink-2); }
              timetable: 'Arrival time isn’t published; calculated from the same crossing on other lines.',
              distance: 'Arrival time isn’t published; estimated from distance.' },
       fUnofficial: '<b>Unofficial.</b> Not affiliated with Şehir Hatları. Data comes from the sehirhatlari.istanbul line pages and the 2026–27 winter timetable (7 Sep 2026 – 27 Jun 2027). Boats can be cancelled for weather, leave early when full, and timetables change without notice. Check the official timetable before you travel.',
+      fPriv: '<b>Private operators:</b> some crossings, such as Beşiktaş–Üsküdar, are run by Turyol and Dentur Avrasya rather than Şehir Hatları. Their times come from İBB open data (2023–24) and are approximate; check the operator’s current timetable.',
       fEst: '<b><span class="est">~</span> Estimated times:</b> some lines only publish departures (e.g. Kadıköy–Beşiktaş). Those arrivals are calculated from measured crossing times in İBB open data, or from distance where no measurement exists.',
       fHol: '<b>Public and religious holidays</b> run the Sunday timetable (2027: Ramazan Bayramı 9–11 March, Kurban Bayramı 16–19 May).',
     },
@@ -303,7 +310,7 @@ footer b { color: var(--ink-2); }
     const list = $('list');
     list.classList.toggle('h12', !h24);
     if (from === to) { $('sumh').textContent = L.same; $('sums').textContent = ''; list.innerHTML = ''; return; }
-    const opts = { windowMin: +$('win').value, transferMin: +$('xfer').value, allowWalk: $('walk').checked, includeTours: $('tours').checked };
+    const opts = { windowMin: +$('win').value, transferMin: +$('xfer').value, allowWalk: $('walk').checked, includeTours: $('tours').checked, includePrivate: $('private').checked };
     if (day !== 'auto') opts.dayTypeOverride = [day];
     const js = P.plan(DB, from, to, date, dep, opts);
 
@@ -327,6 +334,7 @@ footer b { color: var(--ink-2); }
       if (j.arr === earliest) chips.push(`<span class="chip">${L.earliest}</span>`);
       if (j.arr - j.dep === quickest) chips.push(`<span class="chip">${L.quickest}</span>`);
       if (j.rides === fewest && fewest < mostRides) chips.push(`<span class="chip">${L.fewest}</span>`);
+      if (j.legs.some((l) => l.line && l.line.operator)) chips.push(`<span class="chip warn">${lang === 'tr' ? 'Özel işletme' : 'Private operator'}</span>`);
       if (last.arrEst) chips.push(`<span class="chip warn" title="${esc(L.est[last.arrEst])}">${L.approx}</span>`);
       let bar = '', rows = '';
       j.legs.forEach((l, i) => {
@@ -343,7 +351,7 @@ footer b { color: var(--ink-2); }
           const via = l.via.length ? `<details class="via"><summary>${L.stopsBetween(l.via.length)}</summary><span class="note">${l.via.map(esc).join(' · ')}</span></details>` : '';
           const estNote = l.arrEst || l.depEst ? `<div class="estnote">~ ${esc(L.est[l.arrEst || l.depEst])}</div>` : '';
           rows += `<li class="leg"><span class="t">${T(l.dep, l.depEst)}</span><span class="d"><strong>${esc(l.from)}</strong> → <strong>${esc(l.to)}</strong> <span class="mono">${T(l.arr, l.arrEst)}</span>
-            <div class="line">${esc(l.line.name)} · ${L.onBoard(l.arr - l.dep)}</div>${l.trip.note ? `<div class="note">${esc(l.trip.note)}</div>` : ''}${estNote}${via}</span></li>`;
+            <div class="line">${l.line.operator ? `<span class="op">${esc(l.line.operator)}</span> ` : ''}${esc(l.line.name)} · ${L.onBoard(l.arr - l.dep)}</div>${l.line.operator ? `<div class="estnote">≈ ${esc(L.privNote(l.line.operator, l.trip.headway_min))}</div>` : ''}${l.trip.note ? `<div class="note">${esc(l.trip.note)}</div>` : ''}${estNote}${via}</span></li>`;
         }
       });
       return `<article class="j${n === 0 ? ' best' : ''}">
@@ -363,6 +371,8 @@ footer b { color: var(--ink-2); }
   for (const c of ['24', '12']) $('clock-' + c).addEventListener('click', () => {
     h24 = c === '24'; store.set('clock', c); fillHours(); applyLang(); run();
   });
+  if (store.get('private') === '0') $('private').checked = false;
+  $('private').addEventListener('change', () => store.set('private', $('private').checked ? '1' : '0'));
   $('q').addEventListener('input', run);
   $('q').addEventListener('submit', (e) => { e.preventDefault(); run(); });
   $('swap').addEventListener('click', () => { const a = $('from').value; $('from').value = $('to').value; $('to').value = a; run(); });
