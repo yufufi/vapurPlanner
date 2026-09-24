@@ -89,6 +89,7 @@
     for (let k = 1; k <= maxRides; k++) {
       const cur = new Map();
       for (const it of inst) {
+        if (opts.banned && opts.banned.has(it)) continue;
         const s = it.trip.stops;
         let board = null;
         for (let i = 0; i < s.length; i++) {
@@ -139,7 +140,7 @@
       if (p.kind === 'ride') {
         const s = p.it.trip.stops;
         legs.unshift({
-          kind: 'ride', line: p.it.line, trip: p.it.trip,
+          kind: 'ride', line: p.it.line, trip: p.it.trip, it: p.it,
           from: s[p.from].stop, to: s[p.to].stop,
           dep: s[p.from].t + p.it.shift, arr: s[p.to].t + p.it.shift,
           depEst: s[p.from].est || false, arrEst: s[p.to].est || false,
@@ -155,10 +156,17 @@
   // Journey key for dedup
   const jkey = (legs) => legs.map((l) => (l.kind === 'ride' ? `${l.trip.id}:${l.from}>${l.to}` : `w:${l.from}>${l.to}`)).join('|');
 
-  // Plan all Pareto-optimal journeys (later departure / earlier arrival / fewer boats) with a departure
-  // inside [depMin, depMin + windowMin].
+  // Route signature: which lines, boarded and left where (ignores the clock), to spot "same route, other time".
+  const sig = (j) => j.legs.map((l) => (l.kind === 'ride' ? `${l.line.id}:${l.from}>${l.to}` : `w:${l.from}>${l.to}`)).join('|');
+
+  // Plan journeys with a departure inside [depMin, depMin + windowMin]:
+  //  - the best options: Pareto-optimal on later departure / earlier arrival / fewer boats (with a transfer penalty),
+  //  - plus alternatives (marked alt: true): a different route leaving at the same time as a best option and arriving
+  //    at most `altSlackMin` later, e.g. via Beşiktaş when via Ortaköy is 12 minutes faster. RAPTOR keeps only the
+  //    fastest route per departure, so alternatives come from re-running the search with each boat of a best journey
+  //    removed.
   function plan(db, origin, dest, date, depMin, opts = {}) {
-    opts = { windowMin: 240, maxRides: 4, transferMin: 3, transferPenalty: 15, allowWalk: false, includeTours: false, includePrivate: true, maxWaitMin: 120, ...opts };
+    opts = { windowMin: 240, maxRides: 4, transferMin: 3, transferPenalty: 15, allowWalk: false, includeTours: false, includePrivate: true, maxWaitMin: 120, altSlackMin: 15, ...opts };
     const inst = expand(db, date, opts);
     const walks = db.walks || [];
     // candidate departure times: every boat leaving origin (or a walk-neighbour) in the window
@@ -175,8 +183,9 @@
       }
     }
     const found = new Map();
-    for (const t0 of [...cands].sort((a, b) => b - a)) {
-      const rounds = raptor(inst, walks, origin, t0, opts);
+    const search = (t0, banned) => {
+      const out = [];
+      const rounds = raptor(inst, walks, origin, t0, banned ? { ...opts, banned } : opts);
       for (let k = 1; k < rounds.length; k++) {
         const lbl = rounds[k].get(dest);
         if (!lbl) continue;
@@ -184,6 +193,13 @@
         if (!legs.length || legs[0].dep < depMin || legs[0].dep > depMin + opts.windowMin) continue;
         const key = jkey(legs);
         if (!found.has(key)) found.set(key, legs);
+        out.push(legs);
+      }
+      return out;
+    };
+    for (const t0 of [...cands].sort((a, b) => b - a)) {
+      for (const legs of search(t0, null)) {
+        for (const l of legs) if (l.kind === 'ride') search(t0, new Set([l.it]));
       }
     }
     let js = [...found.values()].map(summarize);
@@ -195,9 +211,23 @@
     const pen = opts.transferPenalty;
     const dominates = (b, a) => b !== a && b.dep >= a.dep && b.arr + pen * (b.rides - a.rides) <= a.arr &&
       (b.dep > a.dep || b.arr < a.arr || b.rides < a.rides || jkey(b.legs) < jkey(a.legs));
-    js = js.filter((a) => !js.some((b) => dominates(b, a)));
-    js.sort((a, b) => a.arr - b.arr || a.rides - b.rides || b.dep - a.dep);
-    return js;
+    const best = js.filter((a) => !js.some((b) => dominates(b, a)));
+    const slack = opts.altSlackMin;
+    // the best option you could take instead of `a`: leaves no earlier, arrives first
+    const ref = (a) => best.filter((b) => b.dep >= a.dep).sort((x, y) => x.arr - y.arr)[0];
+    const alts = js
+      .filter((a) => !best.includes(a))
+      // not merely a slower run of a route already listed
+      .filter((a) => !best.some((b) => sig(b) === sig(a) && b.dep >= a.dep && b.arr <= a.arr))
+      // close to the best option and no more boats than it
+      // same departure as a best option, a bit later arrival (not a tie), no more boats
+      .filter((a) => { const r = ref(a); return r && r.dep === a.dep && a.arr > r.arr && a.arr - r.arr <= slack && a.rides <= r.rides; })
+      .sort((a, b) => a.arr - b.arr || b.dep - a.dep);
+    // one alternative per route: the earliest-arriving run of it
+    const seen = new Set();
+    const altKeep = alts.filter((a) => !seen.has(sig(a)) && seen.add(sig(a)));
+    for (const a of altKeep) { a.alt = true; a.altDelta = a.arr - ref(a).arr; }
+    return [...best, ...altKeep].sort((a, b) => a.arr - b.arr || a.rides - b.rides || b.dep - a.dep);
   }
 
   function fillWalkNames(legs, origin, dest) {

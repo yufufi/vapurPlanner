@@ -76,6 +76,8 @@ select:focus-visible, input:focus-visible, button:focus-visible { outline: 2px s
 .list { display: grid; gap: 12px; }
 .j { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: grid; gap: 12px; }
 .j.best { border-color: var(--sea); box-shadow: 0 0 0 1px var(--sea); }
+.j.alt { background: transparent; border-style: dashed; }
+.chip.alt { background: transparent; border: 1px solid var(--line); color: var(--ink-2); }
 .jhead { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
 .times { font: 500 24px var(--mono); letter-spacing: -0.02em; }
 .times .arrow { color: var(--ink-3); margin: 0 6px; }
@@ -196,6 +198,7 @@ footer b { color: var(--ink-2); }
       widen: 'Günün geri kalanını ara', tryOther: ' Başka bir tarih deneyin ya da iskeleler arası yürüyüşe izin verin.',
       options: (n) => `${n} seçenek · varış saatine göre`,
       privNote: (op, hw) => `${op} (özel işletme) · saatler 2023–24 İBB açık verisinden, değişmiş olabilir${hw ? ` · yaklaşık ${hw} dakikada bir` : ''}.`,
+      altRoute: (m) => `Alternatif güzergâh · +${m} dk`,
       earliest: 'En erken varış', quickest: 'En kısa yolculuk', fewest: 'En az aktarma', approx: 'Tahmini varış',
       wait: (m, p) => `${p} iskelesinde ${m} dk bekleme`, walkLeg: 'Yürü', about: (m) => `yaklaşık ${m} dk`,
       onBoard: (m) => `${m} dk yolculuk`, stopsBetween: (n) => `arada ${n} iskele`,
@@ -223,6 +226,7 @@ footer b { color: var(--ink-2); }
       widen: 'Search the rest of the day', tryOther: ' Try another date, or allow short walks between piers.',
       options: (n) => `${n} option${n > 1 ? 's' : ''} · sorted by arrival`,
       privNote: (op, hw) => `${op} (private operator) · times from 2023–24 İBB open data and may have changed${hw ? ` · runs about every ${hw} min` : ''}.`,
+      altRoute: (m) => `Alternative route · +${m} min`,
       earliest: 'Earliest arrival', quickest: 'Quickest trip', fewest: 'Fewest changes', approx: 'Approx. arrival',
       wait: (m, p) => `wait ${m} min at ${p}`, walkLeg: 'Walk', about: (m) => `about ${m} min`,
       onBoard: (m) => `${m} min on board`, stopsBetween: (n) => `${n} stop${n > 1 ? 's' : ''} in between`,
@@ -334,6 +338,7 @@ footer b { color: var(--ink-2); }
       if (j.arr === earliest) chips.push(`<span class="chip">${L.earliest}</span>`);
       if (j.arr - j.dep === quickest) chips.push(`<span class="chip">${L.quickest}</span>`);
       if (j.rides === fewest && fewest < mostRides) chips.push(`<span class="chip">${L.fewest}</span>`);
+      if (j.alt) chips.push(`<span class="chip alt">${L.altRoute(j.altDelta)}</span>`);
       if (j.legs.some((l) => l.line && l.line.operator)) chips.push(`<span class="chip warn">${lang === 'tr' ? 'Özel işletme' : 'Private operator'}</span>`);
       if (last.arrEst) chips.push(`<span class="chip warn" title="${esc(L.est[last.arrEst])}">${L.approx}</span>`);
       let bar = '', rows = '';
@@ -354,7 +359,7 @@ footer b { color: var(--ink-2); }
             <div class="line">${l.line.operator ? `<span class="op">${esc(l.line.operator)}</span> ` : ''}${esc(l.line.name)} · ${L.onBoard(l.arr - l.dep)}</div>${l.line.operator ? `<div class="estnote">≈ ${esc(L.privNote(l.line.operator, l.trip.headway_min))}</div>` : ''}${l.trip.note ? `<div class="note">${esc(l.trip.note)}</div>` : ''}${estNote}${via}</span></li>`;
         }
       });
-      return `<article class="j${n === 0 ? ' best' : ''}">
+      return `<article class="j${n === 0 ? ' best' : ''}${j.alt ? ' alt' : ''}">
         <div class="jhead"><span class="times">${clock(j.dep)}<span class="arrow">→</span>${T(j.arr, last.arrEst)}</span>
           <span class="meta">${L.dur(j.arr - j.dep)} · ${L.changes(j.rides - 1)}${j.totalWait ? ' · ' + L.waiting(j.totalWait) : ''}</span>
           <span class="chips">${chips.join('')}</span></div>
