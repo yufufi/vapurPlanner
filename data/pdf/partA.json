@@ -1,0 +1,6457 @@
+{
+ "lines": [
+  {
+   "id": "kadikoy-karakoy-eminonu",
+   "name": "Kadıköy - Karaköy - Eminönü",
+   "pages": [
+    4
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "06:10"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "06:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Early run Kadıköy→Karaköy→Kadıköy (no Eminönü call); return arrival not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "06:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "06:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Early run Kadıköy→Karaköy→Kadıköy (no Eminönü call); return arrival not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "06:45"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "07:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:50"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "09:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "10:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "11:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "12:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "12:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "13:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "13:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "13:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "13:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "14:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "14:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "14:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "15:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "15:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "16:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "16:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "16:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "17:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "20:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "20:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "20:35"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "20:55",
+       "no_board": true
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "21:05"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Circuit Kadıköy→Karaköy→Eminönü→Kadıköy; return arrival at Kadıköy not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "21:30"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "21:30"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "22:00"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "22:00"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "22:30"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "22:30"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "23:00"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "23:00"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "23:30"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "23:30"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "24:00"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "24:00"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "24:30"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "24:30"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "25:00"
+      },
+      {
+       "stop": "Karaköy"
+      }
+     ],
+     "note": "Evening direct Kadıköy→Karaköy (no Eminönü)"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "25:00"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "Evening direct Karaköy→Kadıköy (no Eminönü)"
+    }
+   ]
+  },
+  {
+   "id": "uskudar-karakoy-eminonu",
+   "name": "Üsküdar - Karaköy - Eminönü",
+   "pages": [
+    5
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "06:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "06:40"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "06:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "09:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "09:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:55"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "10:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "10:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:55"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "11:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "11:55"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "12:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "12:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "13:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "13:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "13:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "13:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "13:55"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "14:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "14:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "14:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "14:55"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "15:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "15:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "15:20"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "16:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "16:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "16:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "17:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Karaköy→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "21:30"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "21:30"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "22:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "22:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "22:30"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ],
+     "note": "Circuit Üsküdar→Eminönü→Üsküdar; return arrival at Üsküdar not printed"
+    }
+   ]
+  },
+  {
+   "id": "kadikoy-besiktas",
+   "name": "Kadıköy - Beşiktaş",
+   "pages": [
+    6
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "06:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "20:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "20:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "21:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "21:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "22:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "22:45"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "23:15"
+      },
+      {
+       "stop": "Beşiktaş"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "16:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "20:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "20:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "21:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "21:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "22:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "22:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "23:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "23:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kadikoy-karakoy-besiktas-night",
+   "name": "Kadıköy - Karaköy - Beşiktaş (Night)",
+   "pages": [
+    6
+   ],
+   "trips": [
+    {
+     "days": [
+      "friday_night",
+      "saturday_night"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "23:45"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "24:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "From Old Kadıköy Pier. Row read as circuit Kadıköy→Beşiktaş→Kadıköy (Beşiktaş column is a departure); return arrival not printed"
+    },
+    {
+     "days": [
+      "friday_night",
+      "saturday_night"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "24:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "24:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "From Old Kadıköy Pier. Row read as circuit Kadıköy→Beşiktaş→Kadıköy (Beşiktaş column is a departure); return arrival not printed"
+    },
+    {
+     "days": [
+      "friday_night",
+      "saturday_night"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "24:45"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "25:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "From Old Kadıköy Pier. Row read as circuit Kadıköy→Beşiktaş→Kadıköy (Beşiktaş column is a departure); return arrival not printed"
+    },
+    {
+     "days": [
+      "friday_night",
+      "saturday_night"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "25:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "25:45"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "From Old Kadıköy Pier. Row read as circuit Kadıköy→Beşiktaş→Kadıköy (Beşiktaş column is a departure); return arrival not printed"
+    },
+    {
+     "days": [
+      "friday_night",
+      "saturday_night"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "25:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "25:50"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "26:05"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "From New Kadıköy Pier. Row read as circuit Kadıköy→Karaköy→Beşiktaş→Kadıköy (Beşiktaş column is a departure); return arrival not printed"
+    },
+    {
+     "days": [
+      "friday_night",
+      "saturday_night"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "26:35"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "26:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "27:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "From New Kadıköy Pier. Row read as circuit Kadıköy→Karaköy→Beşiktaş→Kadıköy (Beşiktaş column is a departure); return arrival not printed"
+    },
+    {
+     "days": [
+      "friday_night",
+      "saturday_night"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "27:45"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "28:05"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "28:20"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "From New Kadıköy Pier. Row read as circuit Kadıköy→Karaköy→Beşiktaş→Kadıköy (Beşiktaş column is a departure); return arrival not printed"
+    },
+    {
+     "days": [
+      "friday_night",
+      "saturday_night"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "28:55"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "29:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "29:30"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "From New Kadıköy Pier. Row read as circuit Kadıköy→Karaköy→Beşiktaş→Kadıköy (Beşiktaş column is a departure); return arrival not printed"
+    }
+   ]
+  },
+  {
+   "id": "kadikoy-kabatas",
+   "name": "Kadıköy - Kabataş",
+   "pages": [
+    7
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "20:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "20:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "21:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "21:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:50"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "21:15"
+      },
+      {
+       "stop": "Kadıköy"
+      }
+     ],
+     "note": "New Kadıköy Pier"
+    }
+   ]
+  },
+  {
+   "id": "kadikoy-uskudar-ortakoy",
+   "name": "Kadıköy - Üsküdar - Ortaköy",
+   "pages": [
+    8
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "08:00"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "08:30"
+      }
+     ],
+     "note": "Starts at Üsküdar"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "10:10"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "11:45"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "15:05"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "15:40"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "17:10"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "18:40"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "10:40"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "11:50"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "12:00"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "13:05"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "13:30"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "13:40"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "14:35"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "15:05"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "15:15"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "17:40"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "19:10"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    }
+   ]
+  },
+  {
+   "id": "ortakoy-uskudar-kadikoy",
+   "name": "Ortaköy - Üsküdar - Kadıköy",
+   "pages": [
+    9
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "08:05"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "08:15"
+      }
+     ],
+     "note": "Terminates at Üsküdar (08:15 is arrival time)"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "08:55"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "09:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "09:30"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "10:25"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "10:50"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "11:50"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "12:25"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "15:50"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "16:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "16:25"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "17:50"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "19:20"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "10:55"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "11:20"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "12:25"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "12:50"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "13:55"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "14:20"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "15:25"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "16:00"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "18:20"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "19:50"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "20:15"
+      }
+     ],
+     "note": "Old Kadıköy Pier"
+    }
+   ]
+  }
+ ],
+ "stops_seen": [
+  "Beşiktaş",
+  "Eminönü",
+  "Kabataş",
+  "Kadıköy",
+  "Karaköy",
+  "Ortaköy",
+  "Üsküdar"
+ ],
+ "issues": [
+  "p4 Kadıköy-Karaköy-Eminönü: all three columns are 'departure'. Rows are read as one boat circuit Kadıköy→Karaköy→Eminönü→Kadıköy (Karaköy≈Kadıköy+20-25, Eminönü≈Karaköy+10); final return Kadıköy stop added without time. There is no separate return table — Eminönü departures are the Eminönü→Kadıköy leg.",
+  "p4: early rows 06:10*/06:35* and 06:30**/06:55** have Eminönü '-': modelled as Kadıköy→Karaköy→Kadıköy loops (trip lists Kadıköy twice).",
+  "p4: from 21:00 on, Kadıköy and Karaköy columns show identical times and Eminönü '-': these cannot be the same boat, so modelled as independent direct Kadıköy→Karaköy and Karaköy→Kadıköy departures (21:00..01:00, after midnight as 24:00/24:30/25:00).",
+  "p4: 20:55*** Karaköy (no boarding) belongs to the 20:30 Kadıköy row, continuing to Eminönü 21:05 → marked no_board on Karaköy.",
+  "p5 Üsküdar-Karaköy-Eminönü: same circuit interpretation (Üsküdar→[Karaköy]→Eminönü→Üsküdar); rows with Karaköy '-' go Üsküdar→Eminönü direct. Return Üsküdar stop has no time. Evening rows (e.g. Üsküdar 22:00 / Eminönü 22:30) have a 30-min gap, so the Eminönü departure may be a separate boat; model still valid for connections.",
+  "p6 night Kadıköy-Karaköy-Beşiktaş: Beşiktaş column is labelled departure; rows read as circuit Kadıköy→[Karaköy]→Beşiktaş→Kadıköy (return leg stop at Karaköy unknown, not included). Kadıköy pier differs per row (Old * / New **), stored in note.",
+  "p6 Kadıköy-Beşiktaş and p7 Kadıköy-Kabataş: independent departure lists per terminal → two-stop trips without destination time; no duration stated on page.",
+  "p9: Üsküdar 08:15* is an arrival time (footnote) and Kadıköy is '-': trip Ortaköy 08:05 → Üsküdar arr 08:15, terminates at Üsküdar."
+ ]
+}

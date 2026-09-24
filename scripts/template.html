@@ -1,0 +1,372 @@
+<title>Vapur Planner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --ground: #eef2f3;
+  --panel: #ffffff;
+  --ink: #0f2430;
+  --ink-2: #4b6270;
+  --ink-3: #7f939e;
+  --line: #d5dfe3;
+  --sea: #134a63;
+  --sea-soft: #dcebf1;
+  --funnel: #c8741c;
+  --funnel-soft: #f7e6d2;
+  --wait: #b9c7ce;
+  --walk: #6c8a3a;
+  --good: #2c7a55;
+  --focus: #c8741c;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0b1a22; --panel: #11242e; --ink: #e5eef1; --ink-2: #a2b6bf; --ink-3: #6d8591;
+    --line: #223945; --sea: #6fb3d2; --sea-soft: #16394a; --funnel: #e79a45;
+    --funnel-soft: #3a2a17; --wait: #36505c; --walk: #9cc163; --good: #6cc79a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0b1a22; --panel: #11242e; --ink: #e5eef1; --ink-2: #a2b6bf; --ink-3: #6d8591;
+  --line: #223945; --sea: #6fb3d2; --sea-soft: #16394a; --funnel: #e79a45;
+  --funnel-soft: #3a2a17; --wait: #36505c; --walk: #9cc163; --good: #6cc79a;
+}
+* { box-sizing: border-box; }
+body { background: var(--ground); color: var(--ink); font: 15px/1.5 var(--body); padding: 0 16px; }
+.wrap { max-width: 860px; margin: 0 auto; padding-block: 28px 56px; display: grid; gap: 22px; }
+header { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: flex-start; justify-content: space-between; }
+header .intro { flex: 1 1 320px; }
+.lang { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; overflow: hidden; flex: none; }
+.lang button { font: 600 13px var(--body); border: 0; background: transparent; color: var(--ink-2); padding: 6px 12px; cursor: pointer; }
+.lang button[aria-pressed="true"] { background: var(--sea); color: var(--panel); }
+.toggles { display: flex; gap: 8px; flex-wrap: wrap; }
+.hm { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.estnote { color: var(--funnel); font-size: 12px; }
+header h1 { font: 700 clamp(28px, 5vw, 40px)/1.05 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+header p { margin: 6px 0 0; color: var(--ink-2); max-width: 62ch; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+/* ---- query form ---- */
+form { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: grid; gap: 14px; }
+.route { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: end; }
+.when { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+label.f, div.f { display: grid; gap: 4px; font-size: 12px; font-weight: 600; color: var(--ink-2); text-transform: uppercase; letter-spacing: .06em; }
+select, input[type=date], input[type=time] {
+  font: 500 16px var(--body); color: var(--ink); background: var(--ground); border: 1px solid var(--line);
+  border-radius: 9px; padding: 9px 10px; width: 100%; min-height: 42px;
+}
+select:focus-visible, input:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.swap { height: 42px; width: 42px; border-radius: 50%; border: 1px solid var(--line); background: var(--ground); color: var(--ink); cursor: pointer; font-size: 18px; }
+.swap:hover { background: var(--sea-soft); }
+.opts { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; color: var(--ink-2); align-items: center; }
+.opts label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.opts select { width: auto; min-height: 34px; padding: 5px 8px; font-size: 14px; }
+.daytag { font-size: 13px; color: var(--ink-2); }
+.daytag b { color: var(--sea); font-weight: 600; }
+
+/* ---- results ---- */
+.summary { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+.summary h2 { font: 700 20px var(--display); margin: 0; }
+.summary span { color: var(--ink-2); font-size: 14px; }
+.list { display: grid; gap: 12px; }
+.j { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: grid; gap: 12px; }
+.j.best { border-color: var(--sea); box-shadow: 0 0 0 1px var(--sea); }
+.jhead { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
+.times { font: 500 24px var(--mono); letter-spacing: -0.02em; }
+.times .arrow { color: var(--ink-3); margin: 0 6px; }
+.meta { color: var(--ink-2); font-size: 14px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-left: auto; }
+.chip { font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 99px; background: var(--sea-soft); color: var(--sea); white-space: nowrap; }
+.chip.warn { background: var(--funnel-soft); color: var(--funnel); }
+.bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--ground); }
+.bar i { display: block; height: 100%; }
+.bar .r { background: var(--sea); }
+.bar .w { background: var(--wait); }
+.bar .k { background: var(--walk); }
+.bar i + i { border-left: 2px solid var(--panel); }
+ol.legs { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.leg { display: grid; grid-template-columns: 58px 1fr; gap: 10px; }
+.h12 .leg { grid-template-columns: 76px 1fr; }
+.leg .t { font: 500 14px var(--mono); color: var(--ink); padding-top: 1px; }
+.leg .d { font-size: 14px; }
+.leg .d strong { font-weight: 600; }
+.leg .line { color: var(--ink-2); font-size: 13px; }
+.leg .note { color: var(--ink-3); font-size: 12px; }
+.leg.gap .d { color: var(--ink-3); font-size: 13px; font-style: italic; }
+.leg.gap .t { color: var(--ink-3); }
+.est { color: var(--funnel); }
+details.via summary { cursor: pointer; color: var(--ink-3); font-size: 12px; list-style: none; }
+details.via summary::before { content: "+ "; }
+details.via[open] summary::before { content: "− "; }
+.empty { background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; padding: 22px; color: var(--ink-2); }
+.empty button { font: 600 14px var(--body); border: 0; border-radius: 8px; padding: 8px 12px; background: var(--sea); color: var(--panel); cursor: pointer; margin-top: 10px; }
+footer { color: var(--ink-3); font-size: 12.5px; line-height: 1.55; display: grid; gap: 6px; max-width: 70ch; }
+footer b { color: var(--ink-2); }
+@media (max-width: 560px) {
+  .route { grid-template-columns: 1fr; }
+  .swap { justify-self: end; margin-block: -6px; transform: rotate(90deg); }
+  .chips { margin-left: 0; }
+  .times { font-size: 21px; }
+}
+@media (prefers-reduced-motion: no-preference) { .j { animation: rise .25s ease both; } }
+@keyframes rise { from { transform: translateY(4px); } to { transform: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="intro">
+      <h1>Vapur Planner</h1>
+      <p data-i18n="intro"></p>
+    </div>
+    <div class="toggles">
+      <div class="lang" role="group" aria-label="Language / Dil">
+        <button type="button" id="lang-tr" aria-pressed="false">TR</button><button type="button" id="lang-en" aria-pressed="false">EN</button>
+      </div>
+      <div class="lang" role="group" id="clock" aria-label="Clock / Saat">
+        <button type="button" id="clock-24" aria-pressed="false">24h</button><button type="button" id="clock-12" aria-pressed="false">12h</button>
+      </div>
+    </div>
+  </header>
+
+  <form id="q" autocomplete="off">
+    <div class="route">
+      <label class="f" for="from"><span data-i18n="from"></span><select id="from"></select></label>
+      <button type="button" class="swap" id="swap">⇄</button>
+      <label class="f" for="to"><span data-i18n="to"></span><select id="to"></select></label>
+    </div>
+    <div class="when">
+      <label class="f" for="date"><span data-i18n="date"></span><input type="date" id="date" min="2026-09-07" max="2027-06-27"></label>
+      <div class="f" role="group" aria-labelledby="after-l"><span id="after-l" data-i18n="after"></span>
+        <span class="hm"><select id="hour" aria-label="hour"></select><select id="minute" aria-label="minute"></select></span></div>
+      <label class="f" for="win"><span data-i18n="within"></span><select id="win">
+        <option value="120" data-i18n="h2"></option><option value="240" selected data-i18n="h4"></option>
+        <option value="480" data-i18n="h8"></option><option value="1440" data-i18n="restOfDay"></option></select></label>
+    </div>
+    <div class="opts">
+      <label for="xfer"><span data-i18n="xfer"></span> <select id="xfer">
+        <option value="0">0′</option><option value="3" selected>3′</option><option value="5">5′</option><option value="10">10′</option></select></label>
+      <label for="day"><span data-i18n="timetable"></span> <select id="day">
+        <option value="auto" selected data-i18n="fromDate"></option><option value="weekday" data-i18n="weekday"></option>
+        <option value="saturday" data-i18n="saturday"></option><option value="sunday" data-i18n="sunday"></option></select></label>
+      <label for="walk"><input type="checkbox" id="walk"> <span data-i18n="walk"></span></label>
+      <label for="tours"><input type="checkbox" id="tours"> <span data-i18n="tours"></span></label>
+    </div>
+    <div class="daytag" id="daytag"></div>
+  </form>
+
+  <section aria-live="polite">
+    <div class="summary"><h2 id="sumh"></h2><span id="sums"></span></div>
+    <div class="list" id="list" style="margin-top:12px"></div>
+  </section>
+
+  <footer>
+    <div data-i18n="fUnofficial"></div>
+    <div data-i18n="fEst"></div>
+    <div data-i18n="fHol"></div>
+  </footer>
+</div>
+
+<script>/*__PLANNER__*/</script>
+<script>const DB = /*__DB__*/;</script>
+<script>
+(() => {
+  const P = window.FerryPlanner, $ = (id) => document.getElementById(id);
+  const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+                  set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+
+  const I18N = {
+    tr: {
+      intro: 'İstanbul şehir hatları vapurları için aktarmalı yolculuk planlayıcı. Aktarmaları eşleştirir, her iskelede ne kadar bekleyeceğinizi gösterir ve seçtiğiniz zaman aralığındaki mantıklı tüm seçenekleri listeler.',
+      from: 'Nereden', to: 'Nereye', date: 'Tarih', after: 'Kalkış (en erken)', within: 'Şu süre içindeki kalkışlar',
+      h2: '2 saat', h4: '4 saat', h8: '8 saat', restOfDay: 'günün geri kalanı',
+      xfer: 'En az aktarma süresi', timetable: 'Tarife', fromDate: 'tarihe göre', weekday: 'Hafta içi', saturday: 'Cumartesi',
+      sunday: 'Pazar / tatil', walk: 'Yakın iskeleler arası kısa yürüyüşe izin ver', tours: 'Boğaz turlarını dahil et',
+      swap: 'Kalkış ve varışı değiştir', hourL: 'Saat', minuteL: 'Dakika',
+      using: (d, night) => `<b>${d}</b> tarifesi kullanılıyor${night ? ' (gece seferleri dahil)' : ''}.`,
+      dayNames: { weekday: 'Hafta içi', saturday: 'Cumartesi', sunday: 'Pazar / resmi tatil' },
+      same: 'İki farklı iskele seçin',
+      none: (a, b) => `${a} ile ${b} arasında kalkan ve oraya ulaşan bir vapur yok.`,
+      widen: 'Günün geri kalanını ara', tryOther: ' Başka bir tarih deneyin ya da iskeleler arası yürüyüşe izin verin.',
+      options: (n) => `${n} seçenek · varış saatine göre`,
+      earliest: 'En erken varış', quickest: 'En kısa yolculuk', fewest: 'En az aktarma', approx: 'Tahmini varış',
+      wait: (m, p) => `${p} iskelesinde ${m} dk bekleme`, walkLeg: 'Yürü', about: (m) => `yaklaşık ${m} dk`,
+      onBoard: (m) => `${m} dk yolculuk`, stopsBetween: (n) => `arada ${n} iskele`,
+      dur: (m) => (m >= 60 ? `${Math.floor(m / 60)} sa ${m % 60 ? (m % 60) + ' dk' : ''}` : `${m} dk`).trim(),
+      changes: (c) => (c === 0 ? 'aktarmasız' : `${c} aktarma`), waiting: (m) => `${m} dk bekleme`,
+      est: { gtfs: 'Varış saati yayımlanmıyor; İBB açık verisindeki ölçülmüş geçiş süresinden hesaplandı.',
+             timetable: 'Varış saati yayımlanmıyor; diğer hatlardaki aynı geçişin süresinden hesaplandı.',
+             distance: 'Varış saati yayımlanmıyor; mesafeden tahmin edildi.' },
+      fUnofficial: '<b>Resmi değildir.</b> Şehir Hatları ile bir bağlantısı yoktur. Veriler sehirhatlari.istanbul sefer sayfalarından ve 2026–27 kış tarifesinden (7 Eylül 2026 – 27 Haziran 2027) alınmıştır. Seferler hava koşulları nedeniyle iptal olabilir, vapur dolunca erken kalkabilir, tarifeler haber verilmeden değişebilir. Yola çıkmadan önce resmi tarifeyi kontrol edin.',
+      fEst: '<b><span class="est">~</span> Tahmini saatler:</b> bazı hatlar yalnızca kalkış saatlerini yayımlıyor (ör. Kadıköy–Beşiktaş). Bu varışlar İBB açık verisindeki ölçülmüş geçiş sürelerinden, yoksa mesafeden hesaplanır.',
+      fHol: '<b>Resmi ve dini bayramlarda</b> Pazar tarifesi uygulanır (2027: Ramazan Bayramı 9–11 Mart, Kurban Bayramı 16–19 Mayıs).',
+    },
+    en: {
+      intro: 'Journey planner for Istanbul city ferries, including connections between lines. It lines up the transfers, shows how long you’ll wait at each pier, and lists every sensible option in your time window.',
+      from: 'From', to: 'To', date: 'Date', after: 'Leaving after', within: 'Show departures within',
+      h2: '2 hours', h4: '4 hours', h8: '8 hours', restOfDay: 'rest of day',
+      xfer: 'Min. change time', timetable: 'Timetable', fromDate: 'from date', weekday: 'Weekday', saturday: 'Saturday',
+      sunday: 'Sunday / holiday', walk: 'Allow short walks between nearby piers', tours: 'Include Bosphorus tours',
+      swap: 'Swap origin and destination', hourL: 'Hour', minuteL: 'Minute',
+      using: (d, night) => `Using the <b>${d}</b> timetable${night ? ' plus night boats' : ''}.`,
+      dayNames: { weekday: 'weekday', saturday: 'Saturday', sunday: 'Sunday / holiday' },
+      same: 'Pick two different piers',
+      none: (a, b) => `No boat gets you there with a departure between ${a} and ${b}.`,
+      widen: 'Search the rest of the day', tryOther: ' Try another date, or allow short walks between piers.',
+      options: (n) => `${n} option${n > 1 ? 's' : ''} · sorted by arrival`,
+      earliest: 'Earliest arrival', quickest: 'Quickest trip', fewest: 'Fewest changes', approx: 'Approx. arrival',
+      wait: (m, p) => `wait ${m} min at ${p}`, walkLeg: 'Walk', about: (m) => `about ${m} min`,
+      onBoard: (m) => `${m} min on board`, stopsBetween: (n) => `${n} stop${n > 1 ? 's' : ''} in between`,
+      dur: (m) => (m >= 60 ? `${Math.floor(m / 60)} h ${m % 60 ? (m % 60) + ' min' : ''}` : `${m} min`).trim(),
+      changes: (c) => (c === 0 ? 'direct' : `${c} change${c > 1 ? 's' : ''}`), waiting: (m) => `${m} min waiting`,
+      est: { gtfs: 'Arrival time isn’t published; calculated from the measured crossing time in İBB open data.',
+             timetable: 'Arrival time isn’t published; calculated from the same crossing on other lines.',
+             distance: 'Arrival time isn’t published; estimated from distance.' },
+      fUnofficial: '<b>Unofficial.</b> Not affiliated with Şehir Hatları. Data comes from the sehirhatlari.istanbul line pages and the 2026–27 winter timetable (7 Sep 2026 – 27 Jun 2027). Boats can be cancelled for weather, leave early when full, and timetables change without notice. Check the official timetable before you travel.',
+      fEst: '<b><span class="est">~</span> Estimated times:</b> some lines only publish departures (e.g. Kadıköy–Beşiktaş). Those arrivals are calculated from measured crossing times in İBB open data, or from distance where no measurement exists.',
+      fHol: '<b>Public and religious holidays</b> run the Sunday timetable (2027: Ramazan Bayramı 9–11 March, Kurban Bayramı 16–19 May).',
+    },
+  };
+
+  // Language: saved choice, else the browser's preferred languages (Turkish if any is tr-*), else English.
+  const prefersTr = (navigator.languages || [navigator.language || '']).some((l) => /^tr\b/i.test(l));
+  let lang = store.get('lang') || (prefersTr ? 'tr' : 'en');
+  let L = I18N[lang];
+
+  // Clock: saved choice, else the hour cycle of the browser's regional format (en-US -> 12h, tr/de/en-GB -> 24h).
+  // Browsers don't expose the OS "24-hour time" switch, so the toggle covers the cases detection gets wrong.
+  const regional24 = () => {
+    try {
+      const hc = new Intl.DateTimeFormat(lang === 'tr' ? 'tr-TR' : navigator.language, { hour: 'numeric' }).resolvedOptions().hourCycle;
+      return hc ? hc === 'h23' || hc === 'h24' : !/AM|PM/i.test(new Date(2000, 0, 1, 13).toLocaleTimeString(navigator.language));
+    } catch { return true; }
+  };
+  const savedClock = store.get('clock');
+  let h24 = savedClock ? savedClock === '24' : regional24();
+  const ampm = (h) => (h < 12 ? 'AM' : 'PM');
+  const h12 = (h) => (h % 12 === 0 ? 12 : h % 12);
+  // minutes after midnight -> "08:25" or "8:25 AM", keeping the planner's "(+1)" next-day marker
+  const clock = (min) => {
+    if (h24) return P.fmt(min);
+    const m = ((min % 1440) + 1440) % 1440, hh = Math.floor(m / 60), mm = String(m % 60).padStart(2, '0');
+    return `${h12(hh)}:${mm}\u2009${ampm(hh)}${min >= 1440 ? ' (+1)' : min < 0 ? ' (-1)' : ''}`;
+  };
+  function fillHours() {
+    const cur = $('hour').value;
+    $('hour').innerHTML = Array.from({ length: 24 }, (_, h) =>
+      `<option value="${h}">${h24 ? String(h).padStart(2, '0') : `${h12(h)} ${ampm(h)}`}</option>`).join('');
+    if (cur !== '') $('hour').value = cur;
+  }
+
+  const stops = Object.keys(DB.stops).sort((a, b) => a.localeCompare(b, 'tr'));
+  for (const sel of [$('from'), $('to')]) sel.innerHTML = stops.map((s) => `<option>${s}</option>`).join('');
+  const pad = (n) => String(n).padStart(2, '0');
+  const now = new Date();
+  $('from').value = stops.includes(store.get('from')) ? store.get('from') : 'Arnavutköy';
+  $('to').value = stops.includes(store.get('to')) ? store.get('to') : 'Üsküdar';
+  $('date').value = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+  $('minute').innerHTML = Array.from({ length: 12 }, (_, i) => `<option value="${i * 5}">${pad(i * 5)}</option>`).join('');
+  fillHours();
+  $('hour').value = String(now.getHours());
+  $('minute').value = String(Math.floor(now.getMinutes() / 5) * 5);
+
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  const T = (m, est) => `${clock(m)}${est ? `<span class="est" title="${esc(L.est[est] || '')}">~</span>` : ''}`;
+
+  function applyLang() {
+    L = I18N[lang];
+    document.documentElement.lang = lang;
+    for (const el of document.querySelectorAll('[data-i18n]')) el.innerHTML = L[el.dataset.i18n];
+    $('swap').setAttribute('aria-label', L.swap);
+    $('lang-tr').setAttribute('aria-pressed', lang === 'tr');
+    $('clock-24').setAttribute('aria-pressed', h24);
+    $('clock-12').setAttribute('aria-pressed', !h24);
+    $('hour').setAttribute('aria-label', L.hourL);
+    $('minute').setAttribute('aria-label', L.minuteL);
+    $('lang-en').setAttribute('aria-pressed', lang === 'en');
+  }
+
+  function run() {
+    const from = $('from').value, to = $('to').value;
+    store.set('from', from); store.set('to', to);
+    const [y, mo, d] = $('date').value.split('-').map(Number);
+    const date = new Date(y, mo - 1, d);
+    const dep = +$('hour').value * 60 + +$('minute').value;
+    const day = $('day').value;
+    const tags = day === 'auto' ? P.dayTags(date) : new Set([day]);
+    const base = ['weekday', 'saturday', 'sunday'].find((t) => tags.has(t));
+    $('daytag').innerHTML = L.using(L.dayNames[base], tags.has('friday_night') || tags.has('saturday_night'));
+
+    const list = $('list');
+    list.classList.toggle('h12', !h24);
+    if (from === to) { $('sumh').textContent = L.same; $('sums').textContent = ''; list.innerHTML = ''; return; }
+    const opts = { windowMin: +$('win').value, transferMin: +$('xfer').value, allowWalk: $('walk').checked, includeTours: $('tours').checked };
+    if (day !== 'auto') opts.dayTypeOverride = [day];
+    const js = P.plan(DB, from, to, date, dep, opts);
+
+    $('sumh').textContent = `${from} → ${to}`;
+    if (!js.length) {
+      $('sums').textContent = '';
+      list.innerHTML = `<div class="empty">${L.none(clock(dep), clock(dep + opts.windowMin))}
+        ${opts.windowMin < 1440 ? `<br><button type="button" id="widen">${L.widen}</button>` : L.tryOther}</div>`;
+      const w = $('widen'); if (w) w.onclick = () => { $('win').value = '1440'; run(); };
+      return;
+    }
+    const earliest = Math.min(...js.map((j) => j.arr));
+    const fewest = Math.min(...js.map((j) => j.rides));
+    const quickest = Math.min(...js.map((j) => j.arr - j.dep));
+    const mostRides = Math.max(...js.map((j) => j.rides));
+    $('sums').textContent = L.options(js.length);
+
+    list.innerHTML = js.map((j, n) => {
+      const last = j.legs[j.legs.length - 1];
+      const chips = [];
+      if (j.arr === earliest) chips.push(`<span class="chip">${L.earliest}</span>`);
+      if (j.arr - j.dep === quickest) chips.push(`<span class="chip">${L.quickest}</span>`);
+      if (j.rides === fewest && fewest < mostRides) chips.push(`<span class="chip">${L.fewest}</span>`);
+      if (last.arrEst) chips.push(`<span class="chip warn" title="${esc(L.est[last.arrEst])}">${L.approx}</span>`);
+      let bar = '', rows = '';
+      j.legs.forEach((l, i) => {
+        if (i > 0 && j.waits[i - 1] > 0) {
+          bar += `<i class="w" style="flex:${j.waits[i - 1]}"></i>`;
+          rows += `<li class="leg gap"><span class="t">${j.waits[i - 1]}′</span><span class="d">${L.wait(j.waits[i - 1], esc(l.from))}</span></li>`;
+        }
+        const len = Math.max(l.arr - l.dep, 1);
+        if (l.kind === 'walk') {
+          bar += `<i class="k" style="flex:${len}"></i>`;
+          rows += `<li class="leg"><span class="t">${clock(l.dep)}</span><span class="d">${L.walkLeg} <strong>${esc(l.from)}</strong> → <strong>${esc(l.to)}</strong> <span class="line">· ${L.about(l.min)}</span></span></li>`;
+        } else {
+          bar += `<i class="r" style="flex:${len}" title="${esc(l.line.name)}"></i>`;
+          const via = l.via.length ? `<details class="via"><summary>${L.stopsBetween(l.via.length)}</summary><span class="note">${l.via.map(esc).join(' · ')}</span></details>` : '';
+          const estNote = l.arrEst || l.depEst ? `<div class="estnote">~ ${esc(L.est[l.arrEst || l.depEst])}</div>` : '';
+          rows += `<li class="leg"><span class="t">${T(l.dep, l.depEst)}</span><span class="d"><strong>${esc(l.from)}</strong> → <strong>${esc(l.to)}</strong> <span class="mono">${T(l.arr, l.arrEst)}</span>
+            <div class="line">${esc(l.line.name)} · ${L.onBoard(l.arr - l.dep)}</div>${l.trip.note ? `<div class="note">${esc(l.trip.note)}</div>` : ''}${estNote}${via}</span></li>`;
+        }
+      });
+      return `<article class="j${n === 0 ? ' best' : ''}">
+        <div class="jhead"><span class="times">${clock(j.dep)}<span class="arrow">→</span>${T(j.arr, last.arrEst)}</span>
+          <span class="meta">${L.dur(j.arr - j.dep)} · ${L.changes(j.rides - 1)}${j.totalWait ? ' · ' + L.waiting(j.totalWait) : ''}</span>
+          <span class="chips">${chips.join('')}</span></div>
+        <div class="bar" aria-hidden="true">${bar}</div>
+        <ol class="legs">${rows}</ol></article>`;
+    }).join('');
+  }
+
+  for (const code of ['tr', 'en']) $('lang-' + code).addEventListener('click', () => {
+    lang = code; store.set('lang', code);
+    if (!store.get('clock')) { h24 = regional24(); fillHours(); }
+    applyLang(); run();
+  });
+  for (const c of ['24', '12']) $('clock-' + c).addEventListener('click', () => {
+    h24 = c === '24'; store.set('clock', c); fillHours(); applyLang(); run();
+  });
+  $('q').addEventListener('input', run);
+  $('q').addEventListener('submit', (e) => { e.preventDefault(); run(); });
+  $('swap').addEventListener('click', () => { const a = $('from').value; $('from').value = $('to').value; $('to').value = a; run(); });
+  applyLang();
+  run();
+})();
+</script>

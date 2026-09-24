@@ -1,0 +1,2642 @@
+{
+ "lines": [
+  {
+   "id": "sedef-adasi-buyukada",
+   "name": "Sedef Adası - Büyükada",
+   "pages": [
+    18
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Sedef Adası",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "07:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sedef Adası",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "08:10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "buyukada-sedef-adasi",
+   "name": "Büyükada - Sedef Adası",
+   "pages": [
+    18
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Sedef Adası",
+       "arr": "20:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Sedef Adası",
+       "arr": "20:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tuzla-pendik-buyukada",
+   "name": "Tuzla - Pendik - Büyükada",
+   "pages": [
+    18
+   ],
+   "trips": [
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Tuzla",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Pendik",
+       "dep": "11:30"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "12:15"
+      }
+     ],
+     "note": "Operated by passenger motor boat from Tuzla and Pendik İDO piers and the Şehir Hatları pier in Büyükada"
+    }
+   ]
+  },
+  {
+   "id": "buyukada-pendik-tuzla",
+   "name": "Büyükada - Pendik - Tuzla",
+   "pages": [
+    18
+   ],
+   "trips": [
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Pendik",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Tuzla",
+       "arr": "20:00"
+      }
+     ],
+     "note": "Operated by passenger motor boat from Tuzla and Pendik İDO piers and the Şehir Hatları pier in Büyükada"
+    }
+   ]
+  },
+  {
+   "id": "bogaz-hatti-to-bosphorus",
+   "name": "Boğaz Hattı (Eminönü → Sarıyer, To Bosphorus)",
+   "pages": [
+    20,
+    21
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "08:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "17:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "18:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Kandilli",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "19:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Kabataş",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "19:00"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "19:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Kuzguncuk",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "19:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "20:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Kuzguncuk",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "19:30"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "19:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Kandilli",
+       "dep": "19:30"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "20:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "19:30"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "19:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "19:30"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "19:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "19:50"
+      },
+      {
+       "stop": "Kuzguncuk",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "20:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Kandilli",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "19:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Kabataş",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "19:05"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "19:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "19:25"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bogaz-hatti-from-bosphorus",
+   "name": "Boğaz Hattı (Sarıyer → Eminönü, From Bosphorus)",
+   "pages": [
+    20,
+    21
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "06:15"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "06:25"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "06:35"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "06:50"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Kuzguncuk",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "07:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "06:50"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "07:10"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Kandilli",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Çengelköy",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Kandilli",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "07:05"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Kuzguncuk",
+       "dep": "08:05"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Kabataş",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Üsküdar",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Kabataş",
+       "dep": "08:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Çengelköy",
+       "dep": "08:05"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Arnavutköy",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Beylerbeyi",
+       "dep": "08:25"
+      },
+      {
+       "stop": "Kuzguncuk",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "09:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Çengelköy",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "08:50"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "09:05"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "09:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Çengelköy",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "18:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "06:15"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "06:25"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "06:35"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "06:50"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "07:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "08:05"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "07:05"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kabataş",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "08:25"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rumeli-kavagi-eminonu",
+   "name": "Rumeli Kavağı - Eminönü",
+   "pages": [
+    22
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "07:35"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "08:05"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "08:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "09:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "08:35"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "09:05"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "09:20"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "09:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "10:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "09:35"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "10:20"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "10:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "11:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "10:35"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "11:20"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "11:50"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "12:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "11:50"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "12:50"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "13:05"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "13:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "12:25"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "12:30"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "13:20"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "13:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "13:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "13:25"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "13:30"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "13:55"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "14:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "14:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "14:25"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "14:30"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "14:55"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "15:20"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "15:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "15:50"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "17:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "16:25"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "17:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "17:25"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "18:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "18:45"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "19:30"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "20:10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eminonu-rumeli-kavagi",
+   "name": "Eminönü - Rumeli Kavağı",
+   "pages": [
+    22
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "09:50"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "10:40"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "arr": "11:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "10:50"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "11:20"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "11:55"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "12:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "11:50"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "12:15"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "12:25"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "12:50"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "arr": "13:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "12:30"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "13:20"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "13:25"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "13:50"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "13:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "13:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "13:50"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "14:20"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "14:40"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "15:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "14:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "14:35"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "14:50"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "15:15"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "15:20"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "15:50"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "arr": "16:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "15:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "15:50"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "16:10"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "16:45"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "arr": "17:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "16:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "17:15"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "arr": "18:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "18:30"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "arr": "19:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "19:10"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "arr": "19:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "20:05"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "20:35"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "20:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "20:35"
+      },
+      {
+       "stop": "Ortaköy",
+       "dep": "20:45"
+      },
+      {
+       "stop": "Arnavutköy",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Bebek",
+       "dep": "21:05"
+      },
+      {
+       "stop": "Emirgan",
+       "dep": "21:25"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "21:30"
+      },
+      {
+       "stop": "Büyükdere",
+       "dep": "21:55"
+      },
+      {
+       "stop": "Sarıyer",
+       "dep": "22:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ortakoy-besiktas-eminonu",
+   "name": "Ortaköy - Beşiktaş - Eminönü",
+   "pages": [
+    23
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "11:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "12:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "12:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "14:55"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "15:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "16:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "17:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:35"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "17:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "20:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Ortaköy",
+       "dep": "21:15"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "21:25"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "21:40"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eminonu-besiktas-ortakoy",
+   "name": "Eminönü - Beşiktaş - Ortaköy",
+   "pages": [
+    23
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "11:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "11:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "12:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "13:25"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "13:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "16:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "17:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "17:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "19:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eminönü",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "20:45"
+      },
+      {
+       "stop": "Ortaköy",
+       "arr": "20:55"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stops_seen": [
+  "Anadolu Hisarı",
+  "Arnavutköy",
+  "Bebek",
+  "Beykoz",
+  "Beylerbeyi",
+  "Beşiktaş",
+  "Büyükada",
+  "Büyükdere",
+  "Eminönü",
+  "Emirgan",
+  "Kabataş",
+  "Kandilli",
+  "Kanlıca",
+  "Kuzguncuk",
+  "Küçüksu",
+  "Ortaköy",
+  "Paşabahçe",
+  "Pendik",
+  "Rumeli Kavağı",
+  "Sarıyer",
+  "Sedef Adası",
+  "Tuzla",
+  "Çengelköy",
+  "Çubuklu",
+  "Üsküdar",
+  "İstinye"
+ ],
+ "issues": [
+  "p20/21 Bosphorus: only Sarıyer (V) column is labelled arrival; final Eminönü (From Bosphorus) and other unlabeled columns treated as dep."
+ ]
+}

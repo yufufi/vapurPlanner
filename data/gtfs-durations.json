@@ -1,0 +1,617 @@
+{
+ "source": "https://data.ibb.gov.tr/api/3/action/package_show?id=public-transport-gtfs-data",
+ "durations": {
+  "Anadolu Hisarı|Aşiyan": {
+   "min": 3,
+   "n": 32
+  },
+  "Anadolu Hisarı|Bebek": {
+   "min": 10,
+   "n": 2
+  },
+  "Anadolu Hisarı|Kandilli": {
+   "min": 10,
+   "n": 7
+  },
+  "Anadolu Hisarı|Kanlıca": {
+   "min": 10,
+   "n": 16
+  },
+  "Anadolu Hisarı|Küçüksu": {
+   "min": 5,
+   "n": 1
+  },
+  "Anadolu Hisarı|Çengelköy": {
+   "min": 15,
+   "n": 8
+  },
+  "Anadolu Kavağı|Beykoz": {
+   "min": 20,
+   "n": 1
+  },
+  "Anadolu Kavağı|Rumeli Kavağı": {
+   "min": 10,
+   "n": 3
+  },
+  "Anadolu Kavağı|Sarıyer": {
+   "min": 10,
+   "n": 1
+  },
+  "Arnavutköy|Bebek": {
+   "min": 5,
+   "n": 8
+  },
+  "Arnavutköy|Beşiktaş": {
+   "min": 15,
+   "n": 10
+  },
+  "Arnavutköy|Emirgan": {
+   "min": 5,
+   "n": 10
+  },
+  "Arnavutköy|Ortaköy": {
+   "min": 10,
+   "n": 1
+  },
+  "Arnavutköy|Çengelköy": {
+   "min": 10,
+   "n": 5
+  },
+  "Ayvansaray|Hasköy": {
+   "min": 5,
+   "n": 4
+  },
+  "Ayvansaray|Sütlüce": {
+   "min": 5,
+   "n": 4
+  },
+  "Aşiyan|Küçüksu": {
+   "min": 12,
+   "n": 32
+  },
+  "Balat|Fener": {
+   "min": 5,
+   "n": 4
+  },
+  "Balat|Hasköy": {
+   "min": 5,
+   "n": 4
+  },
+  "Bebek|Anadolu Hisarı": {
+   "min": 10,
+   "n": 1
+  },
+  "Bebek|Arnavutköy": {
+   "min": 5,
+   "n": 7
+  },
+  "Bebek|Kandilli": {
+   "min": 5,
+   "n": 8
+  },
+  "Beykoz|Anadolu Kavağı": {
+   "min": 20,
+   "n": 1
+  },
+  "Beykoz|Paşabahçe": {
+   "min": 10,
+   "n": 12
+  },
+  "Beylerbeyi|Beşiktaş": {
+   "min": 15,
+   "n": 3
+  },
+  "Beylerbeyi|Kuzguncuk": {
+   "min": 10,
+   "n": 4
+  },
+  "Beylerbeyi|Çengelköy": {
+   "min": 10,
+   "n": 9
+  },
+  "Beylerbeyi|Üsküdar": {
+   "min": 10,
+   "n": 6
+  },
+  "Beşiktaş|Arnavutköy": {
+   "min": 15,
+   "n": 10
+  },
+  "Beşiktaş|Beylerbeyi": {
+   "min": 15,
+   "n": 1
+  },
+  "Beşiktaş|Eminönü": {
+   "min": 15,
+   "n": 37
+  },
+  "Beşiktaş|Kabataş": {
+   "min": 10,
+   "n": 11
+  },
+  "Beşiktaş|Kanlıca": {
+   "min": 25,
+   "n": 1
+  },
+  "Beşiktaş|Kuzguncuk": {
+   "min": 10,
+   "n": 2
+  },
+  "Beşiktaş|Küçüksu": {
+   "min": 25,
+   "n": 1
+  },
+  "Beşiktaş|Kınalıada": {
+   "min": 30,
+   "n": 20
+  },
+  "Beşiktaş|Ortaköy": {
+   "min": 10,
+   "n": 5
+  },
+  "Beşiktaş|Üsküdar": {
+   "min": 15,
+   "n": 3
+  },
+  "Beşiktaş|İstinye": {
+   "min": 35,
+   "n": 1
+  },
+  "Bostancı|Büyükada": {
+   "min": 35,
+   "n": 6
+  },
+  "Bostancı|Karaköy": {
+   "min": 51,
+   "n": 5
+  },
+  "Bostancı|Kınalıada": {
+   "min": 26,
+   "n": 2
+  },
+  "Burgazada|Heybeliada": {
+   "min": 15,
+   "n": 36
+  },
+  "Burgazada|Kınalıada": {
+   "min": 15,
+   "n": 49
+  },
+  "Büyükada|Bostancı": {
+   "min": 30,
+   "n": 6
+  },
+  "Büyükada|Heybeliada": {
+   "min": 15,
+   "n": 45
+  },
+  "Eminönü|Beylerbeyi": {
+   "min": 30,
+   "n": 1
+  },
+  "Eminönü|Beşiktaş": {
+   "min": 20,
+   "n": 31
+  },
+  "Eminönü|Kabataş": {
+   "min": 10,
+   "n": 2
+  },
+  "Eminönü|Kadıköy": {
+   "min": 13,
+   "n": 145
+  },
+  "Eminönü|Kınalıada": {
+   "min": 45,
+   "n": 2
+  },
+  "Eminönü|Çengelköy": {
+   "min": 25,
+   "n": 1
+  },
+  "Eminönü|Üsküdar": {
+   "min": 12,
+   "n": 3
+  },
+  "Emirgan|Arnavutköy": {
+   "min": 15,
+   "n": 10
+  },
+  "Emirgan|Beylerbeyi": {
+   "min": 20,
+   "n": 3
+  },
+  "Emirgan|Kanlıca": {
+   "min": 5,
+   "n": 6
+  },
+  "Emirgan|Paşabahçe": {
+   "min": 15,
+   "n": 1
+  },
+  "Emirgan|Üsküdar": {
+   "min": 30,
+   "n": 1
+  },
+  "Emirgan|İstinye": {
+   "min": 15,
+   "n": 17
+  },
+  "Eyüpsultan|Sütlüce": {
+   "min": 5,
+   "n": 27
+  },
+  "Fener|Balat": {
+   "min": 5,
+   "n": 4
+  },
+  "Fener|Kasımpaşa": {
+   "min": 5,
+   "n": 18
+  },
+  "Fener|Sütlüce": {
+   "min": 10,
+   "n": 14
+  },
+  "Hasköy|Ayvansaray": {
+   "min": 5,
+   "n": 4
+  },
+  "Hasköy|Balat": {
+   "min": 5,
+   "n": 4
+  },
+  "Heybeliada|Bostancı": {
+   "min": 22,
+   "n": 2
+  },
+  "Heybeliada|Burgazada": {
+   "min": 15,
+   "n": 41
+  },
+  "Heybeliada|Büyükada": {
+   "min": 15,
+   "n": 37
+  },
+  "Kabataş|Beşiktaş": {
+   "min": 5,
+   "n": 11
+  },
+  "Kabataş|Eminönü": {
+   "min": 15,
+   "n": 8
+  },
+  "Kabataş|Karaköy": {
+   "min": 10,
+   "n": 14
+  },
+  "Kabataş|Üsküdar": {
+   "min": 10,
+   "n": 1
+  },
+  "Kadıköy|Beşiktaş": {
+   "min": 30,
+   "n": 8
+  },
+  "Kadıköy|Eminönü": {
+   "min": 13,
+   "n": 141
+  },
+  "Kadıköy|Karaköy": {
+   "min": 25,
+   "n": 156
+  },
+  "Kadıköy|Kasımpaşa": {
+   "min": 30,
+   "n": 14
+  },
+  "Kadıköy|Kınalıada": {
+   "min": 30,
+   "n": 20
+  },
+  "Kandilli|Anadolu Hisarı": {
+   "min": 10,
+   "n": 8
+  },
+  "Kandilli|Bebek": {
+   "min": 5,
+   "n": 6
+  },
+  "Kandilli|Çengelköy": {
+   "min": 15,
+   "n": 1
+  },
+  "Kanlıca|Anadolu Hisarı": {
+   "min": 10,
+   "n": 15
+  },
+  "Kanlıca|Emirgan": {
+   "min": 5,
+   "n": 7
+  },
+  "Kanlıca|Paşabahçe": {
+   "min": 15,
+   "n": 1
+  },
+  "Kanlıca|Sarıyer": {
+   "min": 21,
+   "n": 2
+  },
+  "Kanlıca|Çubuklu": {
+   "min": 10,
+   "n": 8
+  },
+  "Kanlıca|Üsküdar": {
+   "min": 25,
+   "n": 1
+  },
+  "Karaköy|Bostancı": {
+   "min": 41,
+   "n": 5
+  },
+  "Karaköy|Eminönü": {
+   "min": 6,
+   "n": 2
+  },
+  "Karaköy|Kabataş": {
+   "min": 10,
+   "n": 14
+  },
+  "Karaköy|Kadıköy": {
+   "min": 25,
+   "n": 151
+  },
+  "Karaköy|Kasımpaşa": {
+   "min": 10,
+   "n": 13
+  },
+  "Karaköy|Üsküdar": {
+   "min": 15,
+   "n": 4
+  },
+  "Kasımpaşa|Fener": {
+   "min": 5,
+   "n": 18
+  },
+  "Kasımpaşa|Kadıköy": {
+   "min": 30,
+   "n": 14
+  },
+  "Kasımpaşa|Karaköy": {
+   "min": 10,
+   "n": 13
+  },
+  "Kasımpaşa|Sütlüce": {
+   "min": 15,
+   "n": 9
+  },
+  "Kuzguncuk|Beylerbeyi": {
+   "min": 10,
+   "n": 2
+  },
+  "Kuzguncuk|Beşiktaş": {
+   "min": 10,
+   "n": 4
+  },
+  "Kuzguncuk|Küçüksu": {
+   "min": 20,
+   "n": 1
+  },
+  "Küçüksu|Anadolu Hisarı": {
+   "min": 1,
+   "n": 33
+  },
+  "Küçüksu|Beşiktaş": {
+   "min": 25,
+   "n": 1
+  },
+  "Küçüksu|Üsküdar": {
+   "min": 20,
+   "n": 1
+  },
+  "Küçüksu|İstinye": {
+   "min": 20,
+   "n": 7
+  },
+  "Kınalıada|Beşiktaş": {
+   "min": 30,
+   "n": 21
+  },
+  "Kınalıada|Bostancı": {
+   "min": 16,
+   "n": 1
+  },
+  "Kınalıada|Burgazada": {
+   "min": 15,
+   "n": 44
+  },
+  "Kınalıada|Eminönü": {
+   "min": 45,
+   "n": 2
+  },
+  "Kınalıada|Kadıköy": {
+   "min": 30,
+   "n": 25
+  },
+  "Ortaköy|Arnavutköy": {
+   "min": 10,
+   "n": 2
+  },
+  "Ortaköy|Beşiktaş": {
+   "min": 10,
+   "n": 3
+  },
+  "Ortaköy|Emirgan": {
+   "min": 25,
+   "n": 2
+  },
+  "Ortaköy|Çengelköy": {
+   "min": 10,
+   "n": 1
+  },
+  "Ortaköy|Üsküdar": {
+   "min": 16,
+   "n": 4
+  },
+  "Paşabahçe|Beykoz": {
+   "min": 10,
+   "n": 10
+  },
+  "Paşabahçe|Kanlıca": {
+   "min": 15,
+   "n": 1
+  },
+  "Paşabahçe|Ortaköy": {
+   "min": 35,
+   "n": 1
+  },
+  "Paşabahçe|Çengelköy": {
+   "min": 35,
+   "n": 1
+  },
+  "Paşabahçe|Çubuklu": {
+   "min": 10,
+   "n": 9
+  },
+  "Rumeli Kavağı|Anadolu Kavağı": {
+   "min": 7,
+   "n": 2
+  },
+  "Rumeli Kavağı|Sarıyer": {
+   "min": 8,
+   "n": 4
+  },
+  "Sarıyer|Anadolu Kavağı": {
+   "min": 10,
+   "n": 1
+  },
+  "Sarıyer|Kanlıca": {
+   "min": 22,
+   "n": 1
+  },
+  "Sarıyer|Rumeli Kavağı": {
+   "min": 7,
+   "n": 3
+  },
+  "Sarıyer|İstinye": {
+   "min": 25,
+   "n": 14
+  },
+  "Sütlüce|Ayvansaray": {
+   "min": 5,
+   "n": 4
+  },
+  "Sütlüce|Eyüpsultan": {
+   "min": 5,
+   "n": 27
+  },
+  "Sütlüce|Fener": {
+   "min": 10,
+   "n": 14
+  },
+  "Sütlüce|Kasımpaşa": {
+   "min": 15,
+   "n": 9
+  },
+  "Çengelköy|Anadolu Hisarı": {
+   "min": 15,
+   "n": 7
+  },
+  "Çengelköy|Arnavutköy": {
+   "min": 10,
+   "n": 5
+  },
+  "Çengelköy|Beylerbeyi": {
+   "min": 10,
+   "n": 9
+  },
+  "Çengelköy|Beşiktaş": {
+   "min": 15,
+   "n": 5
+  },
+  "Çengelköy|Emirgan": {
+   "min": 20,
+   "n": 1
+  },
+  "Çengelköy|Ortaköy": {
+   "min": 15,
+   "n": 1
+  },
+  "Çubuklu|Anadolu Hisarı": {
+   "min": 15,
+   "n": 2
+  },
+  "Çubuklu|Kanlıca": {
+   "min": 10,
+   "n": 6
+  },
+  "Çubuklu|Paşabahçe": {
+   "min": 10,
+   "n": 8
+  },
+  "Çubuklu|İstinye": {
+   "min": 8,
+   "n": 4
+  },
+  "Üsküdar|Beylerbeyi": {
+   "min": 10,
+   "n": 6
+  },
+  "Üsküdar|Beşiktaş": {
+   "min": 12,
+   "n": 2
+  },
+  "Üsküdar|Eminönü": {
+   "min": 12,
+   "n": 3
+  },
+  "Üsküdar|Emirgan": {
+   "min": 26,
+   "n": 1
+  },
+  "Üsküdar|Kabataş": {
+   "min": 10,
+   "n": 1
+  },
+  "Üsküdar|Kanlıca": {
+   "min": 26,
+   "n": 1
+  },
+  "Üsküdar|Karaköy": {
+   "min": 15,
+   "n": 4
+  },
+  "Üsküdar|Kuzguncuk": {
+   "min": 5,
+   "n": 1
+  },
+  "Üsküdar|Ortaköy": {
+   "min": 16,
+   "n": 4
+  },
+  "İstinye|Beşiktaş": {
+   "min": 30,
+   "n": 1
+  },
+  "İstinye|Emirgan": {
+   "min": 5,
+   "n": 15
+  },
+  "İstinye|Kanlıca": {
+   "min": 10,
+   "n": 2
+  },
+  "İstinye|Küçüksu": {
+   "min": 20,
+   "n": 7
+  },
+  "İstinye|Sarıyer": {
+   "min": 25,
+   "n": 13
+  },
+  "İstinye|Çubuklu": {
+   "min": 8,
+   "n": 3
+  }
+ }
+}

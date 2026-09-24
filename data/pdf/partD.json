@@ -1,0 +1,4453 @@
+{
+ "lines": [
+  {
+   "id": "kucuksu-besiktas-kabatas",
+   "name": "Küçüksu - Beşiktaş - Kabataş",
+   "pages": [
+    24
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kanlıca",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Kabataş",
+       "dep": "08:00"
+      }
+     ],
+     "note": "Table row: Kanlıca 07:20 / Küçüksu 07:30 / Kabataş 08:00 / Beşiktaş 07:55; interpreted as one southbound run ending Kabataş"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "Departure-only listing; probably calls at Beşiktaş en route (not stated)"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Kabataş"
+      }
+     ],
+     "note": "Departure-only listing; probably calls at Beşiktaş en route (not stated)"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kucuksu-istinye",
+   "name": "Küçüksu - İstinye",
+   "pages": [
+    24
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "06:55"
+      },
+      {
+       "stop": "İstinye"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "07:35"
+      },
+      {
+       "stop": "İstinye"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "08:05"
+      },
+      {
+       "stop": "İstinye"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "08:40"
+      },
+      {
+       "stop": "İstinye"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "17:50"
+      },
+      {
+       "stop": "İstinye"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "18:40"
+      },
+      {
+       "stop": "İstinye"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Küçüksu",
+       "dep": "19:15"
+      },
+      {
+       "stop": "İstinye"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "İstinye",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "İstinye",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "İstinye",
+       "dep": "08:25"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "İstinye",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "İstinye",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "İstinye",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "İstinye",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Küçüksu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uskudar-asiyan",
+   "name": "Üsküdar - Aşiyan",
+   "pages": [
+    24
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "06:50"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "20:25"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "08:50"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "20:25"
+      },
+      {
+       "stop": "Aşiyan"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "20:25"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Üsküdar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "asiyan-anadolu-hisari-kucuksu-ring",
+   "name": "Aşiyan - Anadolu Hisarı - Küçüksu Ring",
+   "pages": [
+    25
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "06:55"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "07:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "06:55"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "07:05"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "07:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "07:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "07:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "08:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "08:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "08:25"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "08:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "08:50"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "09:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "09:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "09:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "10:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "10:50"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "10:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "11:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "11:30"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "11:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "12:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "12:30"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "12:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "13:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "13:35"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "13:50"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "14:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "14:20"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "14:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "14:35"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "14:50"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "15:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "15:05"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "15:20"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "15:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "15:50"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "16:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "16:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "16:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "16:25"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "16:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "17:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "17:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "17:35"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "17:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "18:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "18:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "18:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "18:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "19:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "19:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "19:50"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "20:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "arr": "20:10"
+      }
+     ],
+     "note": "(V) Trip ends at Anadolu Hisarı pier; printed Anadolu Hisarı 20:10 after Küçüksu 20:05, so this run goes Aşiyan→Küçüksu→Anadolu Hisarı"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "21:30"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "21:40"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "21:45"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "21:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Aşiyan",
+       "dep": "23:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "23:10"
+      },
+      {
+       "stop": "Küçüksu",
+       "dep": "23:15"
+      },
+      {
+       "stop": "Aşiyan",
+       "arr": "23:25"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anadolu-kavagi-rumeli-kavagi-sariyer",
+   "name": "Anadolu Kavağı - Rumeli Kavağı - Sarıyer",
+   "pages": [
+    26
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "06:40"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "06:50"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "07:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "06:55"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "07:05"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "07:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "07:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "08:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "10:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "12:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "14:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "14:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "15:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "16:00"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "16:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "17:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "18:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "19:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "20:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "21:15"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "21:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "22:45"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "22:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "07:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "08:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "09:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "10:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "13:30"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "13:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "14:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "15:20"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "15:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "15:50"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "16:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "17:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "18:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "19:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "20:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "20:35"
+      },
+      {
+       "stop": "Rumeli Kavağı",
+       "dep": "20:45"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "20:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "21:55"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "22:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "23:00"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "23:10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anadolu-kavagi-uskudar",
+   "name": "Anadolu Kavağı - Üsküdar",
+   "pages": [
+    28
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "08:05"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "08:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "08:55"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "09:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "14:30"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "14:50"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "15:20"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "16:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Anadolu Kavağı",
+       "dep": "16:00"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "16:30"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "17:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "19:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "11:50"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "12:25"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "13:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "14:25"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "14:35"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "14:55"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "15:05"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "15:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "16:30"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "17:35"
+      }
+     ],
+     "note": "Terminates at Beykoz"
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Anadolu Kavağı",
+       "arr": "19:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Beylerbeyi",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Çengelköy",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Anadolu Hisarı",
+       "dep": "19:50"
+      },
+      {
+       "stop": "Kanlıca",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Çubuklu",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Paşabahçe",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Beykoz",
+       "dep": "20:30"
+      }
+     ],
+     "note": "Terminates at Beykoz"
+    }
+   ]
+  },
+  {
+   "id": "uskudar-halic-eyupsultan-uskudar",
+   "name": "Üsküdar - Haliç (Eyüpsultan → Üsküdar)",
+   "pages": [
+    29
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "08:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "08:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "08:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "09:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "09:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "09:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "10:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "10:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "10:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "11:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "11:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "11:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "11:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "12:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "12:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "12:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "12:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "13:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "13:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "13:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "13:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "13:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "13:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "14:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "14:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "14:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "14:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "14:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "14:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "15:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Balat",
+       "dep": "15:50"
+      },
+      {
+       "stop": "Fener",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "16:00"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "16:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "16:45"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Balat",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Fener",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "17:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Balat",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Fener",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "18:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Balat",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Fener",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "19:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "19:50"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Fener",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "20:15"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "20:25"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "20:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Eyüpsultan",
+       "dep": "20:45"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "20:50"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "20:55"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "21:05"
+      },
+      {
+       "stop": "Fener",
+       "dep": "21:10"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "21:15"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "21:25"
+      },
+      {
+       "stop": "Üsküdar",
+       "arr": "21:40"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uskudar-halic-uskudar-eyupsultan",
+   "name": "Üsküdar - Haliç (Üsküdar → Eyüpsultan)",
+   "pages": [
+    30
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "08:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "08:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "08:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "09:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "09:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "09:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "09:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "10:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "10:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "10:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "11:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "11:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "11:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "11:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "12:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "12:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "12:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "12:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "13:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "13:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "13:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "13:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "13:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "13:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "14:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "14:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "14:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "14:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "14:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "15:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "15:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "15:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Fener",
+       "dep": "16:00"
+      },
+      {
+       "stop": "Balat",
+       "dep": "16:05"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "16:15"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "16:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Fener",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Balat",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "17:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Fener",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Balat",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "18:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Fener",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Balat",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "19:30"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "19:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "20:10"
+      },
+      {
+       "stop": "Fener",
+       "dep": "20:15"
+      },
+      {
+       "stop": "Balat",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "20:25"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "20:35"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "20:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Üsküdar",
+       "dep": "20:45"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Kasımpaşa",
+       "dep": "21:10"
+      },
+      {
+       "stop": "Fener",
+       "dep": "21:15"
+      },
+      {
+       "stop": "Balat",
+       "dep": "21:20"
+      },
+      {
+       "stop": "Hasköy",
+       "dep": "21:25"
+      },
+      {
+       "stop": "Ayvansaray",
+       "dep": "21:30"
+      },
+      {
+       "stop": "Sütlüce",
+       "dep": "21:35"
+      },
+      {
+       "stop": "Eyüpsultan",
+       "arr": "21:40"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stops_seen": [
+  "Kanlıca",
+  "Küçüksu",
+  "Beşiktaş",
+  "Kabataş",
+  "İstinye",
+  "Üsküdar",
+  "Aşiyan",
+  "Anadolu Hisarı",
+  "Anadolu Kavağı",
+  "Rumeli Kavağı",
+  "Sarıyer",
+  "Beykoz",
+  "Paşabahçe",
+  "Çubuklu",
+  "Çengelköy",
+  "Beylerbeyi",
+  "Eyüpsultan",
+  "Sütlüce",
+  "Ayvansaray",
+  "Hasköy",
+  "Balat",
+  "Fener",
+  "Kasımpaşa",
+  "Karaköy"
+ ],
+ "issues": [
+  "p24 Küçüksu-Beşiktaş-Kabataş: 4 departure-only columns (Kanlıca, Küçüksu, Kabataş, Beşiktaş) with no direction info. Row1 has Beşiktaş 07:55 < Kabataş 08:00, read as one southbound run Kanlıca→Küçüksu→Beşiktaş→Kabataş. Rows 2-3: Küçüksu 08:35/19:10 as southbound departures to Kabataş (untimed, Beşiktaş call not stated), Kabataş 18:30/19:45 → Beşiktaş 18:40/19:55 → Küçüksu (untimed) as northbound.",
+  "p25 ring: row '20:00 | (20:10)(V) | 20:05 | -' — Anadolu Hisarı time is later than Küçüksu, so encoded as Aşiyan 20:00 → Küçüksu 20:05 → Anadolu Hisarı arr 20:10 (ends there per (V) footnote). Also '18.10'/'19.00' typos normalised to 18:10/19:00.",
+  "p28: northbound 16:15 and 19:10 from Üsküdar show '-' at Anadolu Kavağı; last time is a Beykoz *departure* (17:35 / 20:30) — trip assumed to terminate at Beykoz, time kept as dep.",
+  "Brief's guesses were off: p24-25 stop is 'Aşiyan' (new stop, not Ayvansaray); p26 is a single page (two directions stacked), p27 is an advert (no table); p29/p30 are the two directions of Üsküdar-Haliç, not a split wide table.",
+  "Departure-only tables (Küçüksu-İstinye, Üsküdar-Aşiyan) give no intermediate stops/durations; encoded as 2-stop trips."
+ ]
+}

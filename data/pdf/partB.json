@@ -1,0 +1,5062 @@
+{
+ "lines": [
+  {
+   "id": "kadikoy-sariyer",
+   "name": "Kadıköy - Sarıyer",
+   "pages": [
+    10
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kadıköy",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:15"
+      },
+      {
+       "stop": "İstinye",
+       "arr": "08:50"
+      },
+      {
+       "stop": "Sarıyer",
+       "arr": "09:15"
+      }
+     ],
+     "note": "Departs from Old Kadıköy Pier (Kadıköy Eski İskelesi)"
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "18:05"
+      },
+      {
+       "stop": "İstinye",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "19:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "19:30"
+      }
+     ],
+     "note": "Arrives at Old Kadıköy Pier (Kadıköy Eski İskelesi)"
+    }
+   ]
+  },
+  {
+   "id": "beykoz-sariyer",
+   "name": "Beykoz - Sarıyer",
+   "pages": [
+    10
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "06:45"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "11:50"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beykoz",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Sarıyer"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "06:45"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "09:10"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "11:50"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "16:40"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Sarıyer",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Beykoz"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kabatas-adalar",
+   "name": "Kabataş - Adalar",
+   "pages": [
+    12,
+    13
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "06:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "09:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "08:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "09:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "09:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "10:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "11:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "11:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "11:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "12:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "12:50"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "13:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "12:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "13:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "13:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "13:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "14:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "15:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "16:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "18:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:35"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "19:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "19:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "20:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "20:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "20:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "20:40"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "20:55"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "21:10"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "21:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "21:40"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "22:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "22:40"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "22:55"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "23:10"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "23:30"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "24:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "23:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "23:55"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "24:30"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "24:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "25:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "25:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "05:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "06:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "06:15"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "06:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "07:05"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "07:30"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "07:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "06:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "06:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "07:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "07:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "08:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "07:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "08:25"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "09:00"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "09:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "09:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "10:20"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "10:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "10:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "11:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "11:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "12:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "12:05"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "12:50"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "13:25"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "13:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "13:30"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "14:50"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "15:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "16:20"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "16:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "16:30"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "16:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "17:50"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "18:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "17:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "18:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "19:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "19:50"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "20:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "20:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "21:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "20:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "20:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "21:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "21:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "21:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "22:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "21:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "22:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "22:15"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "22:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "23:05"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "23:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "09:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "08:55"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "10:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "09:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "10:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "10:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "11:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "11:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "11:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "12:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "12:50"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "13:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "12:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "13:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "13:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "13:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "13:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "14:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "15:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "16:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "18:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:35"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "19:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "19:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:50"
+      },
+      {
+       "stop": "Eminönü",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "20:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "20:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "20:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "20:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "20:40"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "20:55"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "21:10"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "21:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "21:40"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "22:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "22:40"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "22:55"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "23:10"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "23:30"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "24:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "23:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "dep": "23:55"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "24:30"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "24:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "25:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "25:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "06:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "06:30"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "06:45"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "07:35"
+      },
+      {
+       "stop": "Eminönü",
+       "arr": "08:00"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "08:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "07:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "07:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "08:20"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "08:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "08:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "09:00"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "09:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "09:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "10:20"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "10:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "11:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "11:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "12:20"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "12:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "12:05"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "12:35"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "12:50"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "13:25"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "13:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "12:55"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "13:30"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "14:50"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "15:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "15:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "16:20"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "16:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "16:30"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "16:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "17:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "17:15"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "17:50"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "18:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "17:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "18:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "18:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "19:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "19:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "19:50"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "20:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "20:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "20:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "21:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "20:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "20:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "21:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "21:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "21:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "22:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "21:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "22:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "22:15"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "22:30"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "23:05"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "23:35"
+      }
+     ]
+    }
+   ],
+   "note": "Night tariff (00:30-05:30): double fare."
+  },
+  {
+   "id": "adalar-besiktas",
+   "name": "Adalar - Beşiktaş",
+   "pages": [
+    14
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "07:10"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "07:40"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "08:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "09:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "11:55"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "12:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "13:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "16:25"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "17:00"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "17:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "19:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "19:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "07:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "09:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "13:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "14:20"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "14:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "16:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "16:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "19:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "09:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "09:20"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "09:55"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "10:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "10:10"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "10:25"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "10:55"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "11:30"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "12:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "16:25"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "17:00"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "17:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "18:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "18:45"
+      },
+      {
+       "stop": "Kadıköy",
+       "arr": "19:20"
+      },
+      {
+       "stop": "Beşiktaş",
+       "arr": "19:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "08:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "09:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "13:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "14:20"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "14:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "15:15"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "16:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "16:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Beşiktaş",
+       "dep": "18:15"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Büyükada",
+       "arr": "19:50"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "maltepe-adalar",
+   "name": "Maltepe - Büyükada - Heybeliada - Burgazada - Kınalıada",
+   "pages": [
+    15
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "06:45"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "07:05"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Kınalıada",
+       "arr": "07:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "08:40"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "09:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "09:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "arr": "10:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "10:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "11:20"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "11:40"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "11:55"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "12:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "arr": "12:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "12:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "12:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "13:45"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "14:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "16:10"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "16:25"
+      },
+      {
+       "stop": "Kınalıada",
+       "arr": "16:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "16:50"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "17:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "18:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "19:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "20:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "20:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "20:40"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "21:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Maltepe",
+       "dep": "21:45"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "22:05"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "22:20"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "22:35"
+      },
+      {
+       "stop": "Kınalıada",
+       "arr": "22:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kınalıada",
+       "dep": "07:05"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "07:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "08:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Kınalıada",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "08:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "09:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "09:15"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "09:30"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "09:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "10:55"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "11:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kınalıada",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "11:15"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "11:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "12:45"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "13:00"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "13:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kınalıada",
+       "dep": "14:00"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "14:15"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "14:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "14:45"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "15:05"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "15:40"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "15:55"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "16:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "17:20"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "17:40"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kınalıada",
+       "dep": "17:10"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "17:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "17:40"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "17:55"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "18:15"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "18:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "18:40"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "19:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "19:15"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "19:30"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "19:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "19:45"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "20:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "20:45"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "21:00"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "21:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "21:20"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "21:35"
+      },
+      {
+       "stop": "Maltepe",
+       "arr": "21:55"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bostanci-adalar-ring",
+   "name": "Bostancı - Adalar Ring",
+   "pages": [
+    16
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "02:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "02:25"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "02:40"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "02:55"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "03:10"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "03:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "04:45"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "05:10"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "05:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "05:40"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "05:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "06:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "08:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "09:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "15:50"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "16:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "16:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "18:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "21:45"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "22:10"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "22:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "22:40"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "22:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "23:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "06:45"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "07:00"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "07:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "09:25"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "10:00"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "10:30"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "11:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "11:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "20:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday",
+      "saturday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "24:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "24:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "24:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "25:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "25:20"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "25:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "02:00"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "02:25"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "02:40"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "02:55"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "03:10"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "03:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "04:45"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "05:10"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "05:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "05:40"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "05:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "06:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "08:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "08:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "09:00"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "09:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "15:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "15:35"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "15:50"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "16:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "16:20"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "16:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Heybeliada",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "18:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "21:45"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "22:10"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "22:25"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "22:40"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "22:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "23:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Büyükada",
+       "dep": "07:05"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "07:45"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "07:45"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "08:20"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "08:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "10:05"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "10:40"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "10:55"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "11:10"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "11:25"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "11:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "11:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "11:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "11:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "19:25"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "19:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "20:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "24:00"
+      },
+      {
+       "stop": "Büyükada",
+       "dep": "24:35"
+      },
+      {
+       "stop": "Heybeliada",
+       "dep": "24:50"
+      },
+      {
+       "stop": "Burgazada",
+       "dep": "25:05"
+      },
+      {
+       "stop": "Kınalıada",
+       "dep": "25:20"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "25:45"
+      }
+     ]
+    }
+   ],
+   "note": "Circuit line. Night tariff (00:30-05:30) double fare applies to night trips."
+  },
+  {
+   "id": "bostanci-moda-karakoy-kabatas",
+   "name": "Bostancı - Moda - Karaköy - Kabataş",
+   "pages": [
+    17
+   ],
+   "trips": [
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "06:50"
+      },
+      {
+       "stop": "Moda",
+       "dep": "07:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "08:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "07:55"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "08:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "08:50"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "09:40"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "10:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "09:45"
+      },
+      {
+       "stop": "Moda",
+       "dep": "10:15"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "10:45"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "10:55"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "13:35"
+      },
+      {
+       "stop": "Moda",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "14:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "16:05"
+      },
+      {
+       "stop": "Moda",
+       "dep": "16:35"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "17:05"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "17:20"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "18:35"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "19:20"
+      }
+     ],
+     "note": "Parenthesised times in source: boat reaches Kabataş (19:20) and continues as the 19:20 Kabataş-Karaköy(19:35)-Moda-Bostancı trip."
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "19:30"
+      },
+      {
+       "stop": "Moda",
+       "dep": "20:00"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "20:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "07:50"
+      },
+      {
+       "stop": "Kabataş",
+       "dep": "08:00"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "08:45"
+      }
+     ],
+     "note": "Parenthesised times in source: continuation of the morning Bostancı-Moda-Karaköy-Kabataş boat (Karaköy then Kabataş), then direct to Bostancı."
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Karaköy",
+       "dep": "08:45"
+      },
+      {
+       "stop": "Kabataş",
+       "dep": "08:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "09:40"
+      }
+     ],
+     "note": "Parenthesised times in source: continuation of the morning Bostancı-Moda-Karaköy-Kabataş boat (Karaköy then Kabataş), then direct to Bostancı."
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Moda",
+       "dep": "12:30"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "13:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Moda",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "16:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:30"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "17:45"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "18:30"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "18:10"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "18:25"
+      },
+      {
+       "stop": "Moda",
+       "dep": "18:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "19:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "19:20"
+      },
+      {
+       "stop": "Karaköy",
+       "dep": "19:35"
+      },
+      {
+       "stop": "Moda",
+       "dep": "20:05"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "20:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "weekday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "20:35"
+      },
+      {
+       "stop": "Moda",
+       "dep": "21:05"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "21:35"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bostanci-moda-kabatas-weekend",
+   "name": "Bostancı - Moda - Kabataş",
+   "pages": [
+    17
+   ],
+   "trips": [
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "10:35"
+      },
+      {
+       "stop": "Moda",
+       "dep": "11:05"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "11:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "13:35"
+      },
+      {
+       "stop": "Moda",
+       "dep": "14:05"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "14:35"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "16:25"
+      },
+      {
+       "stop": "Moda",
+       "dep": "16:55"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "17:25"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Bostancı",
+       "dep": "19:10"
+      },
+      {
+       "stop": "Moda",
+       "dep": "19:40"
+      },
+      {
+       "stop": "Kabataş",
+       "arr": "20:10"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "12:00"
+      },
+      {
+       "stop": "Moda",
+       "dep": "12:30"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "13:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "15:00"
+      },
+      {
+       "stop": "Moda",
+       "dep": "15:30"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "16:00"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "17:50"
+      },
+      {
+       "stop": "Moda",
+       "dep": "18:20"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "18:50"
+      }
+     ]
+    },
+    {
+     "days": [
+      "saturday",
+      "sunday"
+     ],
+     "stops": [
+      {
+       "stop": "Kabataş",
+       "dep": "20:25"
+      },
+      {
+       "stop": "Moda",
+       "dep": "20:55"
+      },
+      {
+       "stop": "Bostancı",
+       "arr": "21:25"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stops_seen": [
+  "Kadıköy",
+  "Beşiktaş",
+  "İstinye",
+  "Sarıyer",
+  "Beykoz",
+  "Kabataş",
+  "Kınalıada",
+  "Burgazada",
+  "Heybeliada",
+  "Büyükada",
+  "Bostancı",
+  "Eminönü",
+  "Maltepe",
+  "Moda",
+  "Karaköy"
+ ],
+ "issues": [
+  "p10 Beykoz-Sarıyer: 17:25 from Beykoz vs 17:20 from Sarıyer on same row (transcribed as printed).",
+  "p10 Beykoz-Sarıyer: no travel duration printed; trips have destination without time.",
+  "p16 Bostancı-Adalar Ring: 02:00 and 04:45 trips kept as early-morning times (not 26:00) within their weekday/saturday resp. sunday section; the 00:00 trip is written as 24:00+ of the section's day. Which calendar day the 02:00/04:45 night trips belong to (e.g. Sunday 02:00 vs Saturday-night) is ambiguous.",
+  "p17 weekday Bostancı-Moda-Karaköy-Kabataş: parenthesised times. Outbound 18:35 row shows Karaköy (19:35) after Kabataş (19:20) -> encoded as Bostancı 18:35 -> Kabataş 19:20 only (Karaköy 19:35 is the return 19:20 trip). Return rows (08:00)/(07:50) and (08:55)/(08:45) encoded as Karaköy -> Kabataş -> Bostancı (boat continues from the morning outbound runs).",
+  "p12/p13 Kabataş-Adalar: 'night tariff 00:30-05:30 double fare' note; after-midnight times written 24:xx/25:xx.",
+  "p11 is an advertisement page (no timetable)."
+ ]
+}
