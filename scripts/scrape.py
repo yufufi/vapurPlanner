@@ -5,7 +5,7 @@ Output: data/scraped/html/<slug>.html (raw pages) and data/scraped/tables.json:
   { "<slug>": { "url", "title", "tables": [ { "heading": str, "rows": [[cell, ...], ...] } ] } }
 Polite: one request at a time with a pause between them.
 """
-import html, json, os, re, sys, time, urllib.request
+import html, json, os, re, sys, time, urllib.error, urllib.request
 
 BASE = "https://sehirhatlari.istanbul"
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "scraped")
@@ -13,9 +13,15 @@ UA = "VapurPlanner/0.1 (unofficial timetable checker)"
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", "replace")
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "tr,en;q=0.8"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        body = e.read()[:300].decode("utf-8", "replace").replace("\n", " ")
+        raise SystemExit(f"::error::GET {url} -> HTTP {e.code} {e.reason}; server={e.headers.get('server')}; body={body}")
+    except OSError as e:
+        raise SystemExit(f"::error::GET {url} -> {type(e).__name__}: {e}")
 
 
 def text(fragment):

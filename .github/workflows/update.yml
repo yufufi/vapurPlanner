@@ -26,7 +26,9 @@ jobs:
           python-version: "3.12"
 
       - name: Scrape line pages
+        id: scrape
         if: github.event_name != 'push'
+        continue-on-error: true   # if the site is unreachable, keep the last committed timetable and still deploy
         run: python scripts/scrape.py
 
       - name: Build database and page
