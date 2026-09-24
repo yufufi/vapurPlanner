@@ -37,12 +37,8 @@ Every calculated time is marked with `est` in the database and `~` in the page.
 
 ## Updating
 
-A GitHub Actions workflow re-scrapes the site twice a week, rebuilds the database and page, commits any changes,
-and deploys `site/` to GitHub Pages. To run it locally:
-
-```bash
-python3 scripts/scrape.py && python3 scripts/site_to_lines.py && python3 scripts/compare.py \
-  && python3 scripts/build_db.py && python3 scripts/build_html.py
-```
+Run `scripts/update.sh` from a normal home or office connection. It re-scrapes the line pages, rebuilds the
+database and page, and commits and pushes any changes; every push to `main` deploys `site/` to GitHub Pages.
+Scraping can't run in GitHub Actions: the operator's site sits behind Cloudflare, which blocks datacenter IPs.
 
 Command-line planner: `node scripts/plan_cli.js kadikoy sariyer 2026-10-03 09:00`.
