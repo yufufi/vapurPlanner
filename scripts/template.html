@@ -197,7 +197,7 @@ footer b { color: var(--ink-2); }
       none: (a, b) => `${a} ile ${b} arasında kalkan ve oraya ulaşan bir vapur yok.`,
       widen: 'Günün geri kalanını ara', tryOther: ' Başka bir tarih deneyin ya da iskeleler arası yürüyüşe izin verin.',
       options: (n) => `${n} seçenek · varış saatine göre`,
-      privNote: (op, hw) => `${op} (özel işletme) · saatler 2023–24 İBB açık verisinden, değişmiş olabilir${hw ? ` · yaklaşık ${hw} dakikada bir` : ''}.`,
+      privNote: (op, hw, model) => `${op} (özel işletme) · kalkışlar 2023–24 İBB açık verisinden, değişmiş olabilir${hw ? ` · yaklaşık ${hw} dakikada bir` : ''}${model ? ' · geçiş süresi mesafeden tahmin edildi' : ''}.`,
       altRoute: (m) => `Alternatif güzergâh · +${m} dk`,
       earliest: 'En erken varış', quickest: 'En kısa yolculuk', fewest: 'En az aktarma', approx: 'Tahmini varış',
       wait: (m, p) => `${p} iskelesinde ${m} dk bekleme`, walkLeg: 'Yürü', about: (m) => `yaklaşık ${m} dk`,
@@ -206,7 +206,8 @@ footer b { color: var(--ink-2); }
       changes: (c) => (c === 0 ? 'aktarmasız' : `${c} aktarma`), waiting: (m) => `${m} dk bekleme`,
       est: { gtfs: 'Varış saati yayımlanmıyor; İBB açık verisindeki ölçülmüş geçiş süresinden hesaplandı.',
              timetable: 'Varış saati yayımlanmıyor; diğer hatlardaki aynı geçişin süresinden hesaplandı.',
-             distance: 'Varış saati yayımlanmıyor; mesafeden tahmin edildi.' },
+             distance: 'Varış saati yayımlanmıyor; mesafeden tahmin edildi.',
+             model: 'Geçiş süresi tahminidir: açık verideki süre gerçekçi değildi, mesafe ve tipik motor hızından hesaplandı.' },
       fUnofficial: '<b>Resmi değildir.</b> Şehir Hatları ile bir bağlantısı yoktur. Veriler sehirhatlari.istanbul sefer sayfalarından ve 2026–27 kış tarifesinden (7 Eylül 2026 – 27 Haziran 2027) alınmıştır. Seferler hava koşulları nedeniyle iptal olabilir, vapur dolunca erken kalkabilir, tarifeler haber verilmeden değişebilir. Yola çıkmadan önce resmi tarifeyi kontrol edin.',
       fPriv: '<b>Özel işletmeler:</b> Beşiktaş–Üsküdar gibi bazı hatları Şehir Hatları değil Turyol ve Dentur Avrasya işletir. Bu vapurların saatleri İBB açık verisinden (2023–24) alınmıştır ve yaklaşıktır; işletmecinin güncel tarifesini kontrol edin.',
       fEst: '<b><span class="est">~</span> Tahmini saatler:</b> bazı hatlar yalnızca kalkış saatlerini yayımlıyor (ör. Kadıköy–Beşiktaş). Bu varışlar İBB açık verisindeki ölçülmüş geçiş sürelerinden, yoksa mesafeden hesaplanır.',
@@ -225,7 +226,7 @@ footer b { color: var(--ink-2); }
       none: (a, b) => `No boat gets you there with a departure between ${a} and ${b}.`,
       widen: 'Search the rest of the day', tryOther: ' Try another date, or allow short walks between piers.',
       options: (n) => `${n} option${n > 1 ? 's' : ''} · sorted by arrival`,
-      privNote: (op, hw) => `${op} (private operator) · times from 2023–24 İBB open data and may have changed${hw ? ` · runs about every ${hw} min` : ''}.`,
+      privNote: (op, hw, model) => `${op} (private operator) · departures from 2023–24 İBB open data and may have changed${hw ? ` · runs about every ${hw} min` : ''}${model ? ' · crossing time estimated from distance' : ''}.`,
       altRoute: (m) => `Alternative route · +${m} min`,
       earliest: 'Earliest arrival', quickest: 'Quickest trip', fewest: 'Fewest changes', approx: 'Approx. arrival',
       wait: (m, p) => `wait ${m} min at ${p}`, walkLeg: 'Walk', about: (m) => `about ${m} min`,
@@ -234,7 +235,8 @@ footer b { color: var(--ink-2); }
       changes: (c) => (c === 0 ? 'direct' : `${c} change${c > 1 ? 's' : ''}`), waiting: (m) => `${m} min waiting`,
       est: { gtfs: 'Arrival time isn’t published; calculated from the measured crossing time in İBB open data.',
              timetable: 'Arrival time isn’t published; calculated from the same crossing on other lines.',
-             distance: 'Arrival time isn’t published; estimated from distance.' },
+             distance: 'Arrival time isn’t published; estimated from distance.',
+             model: 'Crossing time is an estimate: the open-data value was unrealistic, so it’s calculated from distance at typical motorboat speed.' },
       fUnofficial: '<b>Unofficial.</b> Not affiliated with Şehir Hatları. Data comes from the sehirhatlari.istanbul line pages and the 2026–27 winter timetable (7 Sep 2026 – 27 Jun 2027). Boats can be cancelled for weather, leave early when full, and timetables change without notice. Check the official timetable before you travel.',
       fPriv: '<b>Private operators:</b> some crossings, such as Beşiktaş–Üsküdar, are run by Turyol and Dentur Avrasya rather than Şehir Hatları. Their times come from İBB open data (2023–24) and are approximate; check the operator’s current timetable.',
       fEst: '<b><span class="est">~</span> Estimated times:</b> some lines only publish departures (e.g. Kadıköy–Beşiktaş). Those arrivals are calculated from measured crossing times in İBB open data, or from distance where no measurement exists.',
@@ -354,9 +356,9 @@ footer b { color: var(--ink-2); }
         } else {
           bar += `<i class="r" style="flex:${len}" title="${esc(l.line.name)}"></i>`;
           const via = l.via.length ? `<details class="via"><summary>${L.stopsBetween(l.via.length)}</summary><span class="note">${l.via.map(esc).join(' · ')}</span></details>` : '';
-          const estNote = l.arrEst || l.depEst ? `<div class="estnote">~ ${esc(L.est[l.arrEst || l.depEst])}</div>` : '';
+          const estNote = !l.line.operator && (l.arrEst || l.depEst) ? `<div class="estnote">~ ${esc(L.est[l.arrEst || l.depEst])}</div>` : '';
           rows += `<li class="leg"><span class="t">${T(l.dep, l.depEst)}</span><span class="d"><strong>${esc(l.from)}</strong> → <strong>${esc(l.to)}</strong> <span class="mono">${T(l.arr, l.arrEst)}</span>
-            <div class="line">${l.line.operator ? `<span class="op">${esc(l.line.operator)}</span> ` : ''}${esc(l.line.name)} · ${L.onBoard(l.arr - l.dep)}</div>${l.line.operator ? `<div class="estnote">≈ ${esc(L.privNote(l.line.operator, l.trip.headway_min))}</div>` : ''}${l.trip.note ? `<div class="note">${esc(l.trip.note)}</div>` : ''}${estNote}${via}</span></li>`;
+            <div class="line">${l.line.operator ? `<span class="op">${esc(l.line.operator)}</span> ` : ''}${esc(l.line.name)} · ${L.onBoard(l.arr - l.dep)}</div>${l.line.operator ? `<div class="estnote">≈ ${esc(L.privNote(l.line.operator, l.trip.headway_min, l.arrEst === 'model'))}</div>` : ''}${l.trip.note ? `<div class="note">${esc(l.trip.note)}</div>` : ''}${estNote}${via}</span></li>`;
         }
       });
       return `<article class="j${n === 0 ? ' best' : ''}${j.alt ? ' alt' : ''}">

@@ -38,7 +38,9 @@ Every calculated time is marked with `est` in the database and `~` in the page.
 
 Some crossings (e.g. Beşiktaş–Üsküdar, Karaköy–Üsküdar) are run by private operators, not Şehir Hatları. They're
 included by default (a checkbox turns them off), labelled with the operator's name and marked approximate: İBB's feed
-dates from 2023–24, and Dentur's frequent lines are published only as "every N minutes".
+dates from 2023–24, and Dentur's frequent lines are published only as "every N minutes". The feed's crossing times
+for these boats are padded (17 min for the 1.7 km Beşiktaş–Üsküdar hop), so `build_db.py` recomputes them from
+distance at a typical motorboat speed (`PRIVATE_KMH`, `PRIVATE_DOCK_MIN`) whenever that is faster.
 
 ## Updating
 

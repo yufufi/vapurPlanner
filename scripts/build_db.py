@@ -49,6 +49,10 @@ WALKS = [
 ]
 
 
+PRIVATE_KMH = 25       # typical cruising speed of the private operators' motorboats
+PRIVATE_DOCK_MIN = 2   # manoeuvring in and out of the piers
+
+
 def to_min(s):
     h, m = s.split(":")
     return int(h) * 60 + int(m)
@@ -87,6 +91,27 @@ def main():
                 s.pop("arr", None); s.pop("dep", None)
                 if t:
                     s["t"] = to_min(t)
+
+    # Private operators: İBB's feed pads their crossing times (e.g. 17 min for the 1.7 km Beşiktaş–Üsküdar hop, i.e.
+    # ~6 km/h). Keep each trip's first departure, but where the feed's crossing is slower than a motorboat at
+    # PRIVATE_KMH plus PRIVATE_DOCK_MIN for docking, use that instead and mark the time as estimated ("model").
+    for L in lines:
+        if not L.get("operator"):
+            continue
+        for tr in L["trips"]:
+            st = tr["stops"]
+            orig = [s["t"] for s in st]
+            for i in range(1, len(st)):
+                a, b = st[i - 1]["stop"], st[i]["stop"]
+                if a not in COORDS or b not in COORDS:
+                    continue
+                model = round(PRIVATE_DOCK_MIN + km(a, b) * 60 / PRIVATE_KMH)
+                feed = orig[i] - orig[i - 1]
+                if model < feed:
+                    st[i]["t"] = st[i - 1]["t"] + model
+                    st[i]["est"] = "model"
+                else:
+                    st[i]["t"] = st[i - 1]["t"] + feed
 
     # observed direct travel times between consecutive timed stops
     seg = defaultdict(list)
