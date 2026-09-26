@@ -37,9 +37,8 @@
 }
 * { box-sizing: border-box; }
 body { background: var(--ground); color: var(--ink); font: 15px/1.5 var(--body); padding: 0 16px; }
-.wrap { max-width: 860px; margin: 0 auto; padding-block: 28px 56px; display: grid; gap: 22px; }
-header { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: flex-start; justify-content: space-between; }
-header .intro { flex: 1 1 320px; }
+.wrap { max-width: 860px; margin: 0 auto; padding-block: 16px 56px; display: grid; gap: 16px; }
+header { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; }
 .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; overflow: hidden; flex: none; }
 .lang button { font: 600 13px var(--body); border: 0; background: transparent; color: var(--ink-2); padding: 6px 12px; cursor: pointer; }
 .lang button[aria-pressed="true"] { background: var(--sea); color: var(--panel); }
@@ -47,8 +46,7 @@ header .intro { flex: 1 1 320px; }
 .hm { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
 .estnote { color: var(--funnel); font-size: 12px; }
 .op { font-size: 11px; font-weight: 600; letter-spacing: .03em; padding: 1px 7px; border-radius: 99px; border: 1px solid var(--funnel); color: var(--funnel); white-space: nowrap; }
-header h1 { font: 700 clamp(28px, 5vw, 40px)/1.05 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
-header p { margin: 6px 0 0; color: var(--ink-2); max-width: 62ch; }
+header h1 { font: 700 clamp(22px, 4vw, 28px)/1.1 var(--display); letter-spacing: -0.02em; margin: 0; }
 .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 
 /* ---- query form ---- */
@@ -58,14 +56,17 @@ form { background: var(--panel); border: 1px solid var(--line); border-radius: 1
 label.f, div.f { display: grid; gap: 4px; font-size: 12px; font-weight: 600; color: var(--ink-2); text-transform: uppercase; letter-spacing: .06em; }
 select, input[type=date], input[type=time] {
   font: 500 16px var(--body); color: var(--ink); background: var(--ground); border: 1px solid var(--line);
-  border-radius: 9px; padding: 9px 10px; width: 100%; min-height: 42px;
+  border-radius: 9px; padding: 0 10px; width: 100%; height: 44px; line-height: 42px; box-sizing: border-box;
+  -webkit-appearance: none; appearance: none;
 }
+select { padding-right: 30px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%237f939e' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; }
+.opts select { background-position: right 8px center; }
 select:focus-visible, input:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
-.swap { height: 42px; width: 42px; border-radius: 50%; border: 1px solid var(--line); background: var(--ground); color: var(--ink); cursor: pointer; font-size: 18px; }
+.swap { height: 44px; width: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--ground); color: var(--ink); cursor: pointer; font-size: 18px; }
 .swap:hover { background: var(--sea-soft); }
 .opts { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; color: var(--ink-2); align-items: center; }
 .opts label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
-.opts select { width: auto; min-height: 34px; padding: 5px 8px; font-size: 14px; }
+.opts select { width: auto; height: 34px; line-height: 32px; padding: 0 26px 0 8px; font-size: 14px; }
 .daytag { font-size: 13px; color: var(--ink-2); }
 .daytag b { color: var(--sea); font-weight: 600; }
 
@@ -121,10 +122,7 @@ footer b { color: var(--ink-2); }
 
 <div class="wrap">
   <header>
-    <div class="intro">
-      <h1>Vapur Planner</h1>
-      <p data-i18n="intro"></p>
-    </div>
+    <h1>Vapur Planner</h1>
     <div class="toggles">
       <div class="lang" role="group" aria-label="Language / Dil">
         <button type="button" id="lang-tr" aria-pressed="false">TR</button><button type="button" id="lang-en" aria-pressed="false">EN</button>
@@ -181,11 +179,11 @@ footer b { color: var(--ink-2); }
 (() => {
   const P = window.FerryPlanner, $ = (id) => document.getElementById(id);
   const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } },
-                  set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+                  set(k, v) { try { localStorage.setItem(k, v); } catch {} },
+                  del(k) { try { localStorage.removeItem(k); } catch {} } };
 
   const I18N = {
     tr: {
-      intro: 'İstanbul şehir hatları vapurları için aktarmalı yolculuk planlayıcı. Aktarmaları eşleştirir, her iskelede ne kadar bekleyeceğinizi gösterir ve seçtiğiniz zaman aralığındaki mantıklı tüm seçenekleri listeler.',
       from: 'Nereden', to: 'Nereye', date: 'Tarih', after: 'Kalkış (en erken)', within: 'Şu süre içindeki kalkışlar',
       h2: '2 saat', h4: '4 saat', h8: '8 saat', restOfDay: 'günün geri kalanı',
       xfer: 'En az aktarma süresi', timetable: 'Tarife', fromDate: 'tarihe göre', weekday: 'Hafta içi', saturday: 'Cumartesi',
@@ -214,7 +212,6 @@ footer b { color: var(--ink-2); }
       fHol: '<b>Resmi ve dini bayramlarda</b> Pazar tarifesi uygulanır (2027: Ramazan Bayramı 9–11 Mart, Kurban Bayramı 16–19 Mayıs).',
     },
     en: {
-      intro: 'Journey planner for Istanbul city ferries, including connections between lines. It lines up the transfers, shows how long you’ll wait at each pier, and lists every sensible option in your time window.',
       from: 'From', to: 'To', date: 'Date', after: 'Leaving after', within: 'Show departures within',
       h2: '2 hours', h4: '4 hours', h8: '8 hours', restOfDay: 'rest of day',
       xfer: 'Min. change time', timetable: 'Timetable', fromDate: 'from date', weekday: 'Weekday', saturday: 'Saturday',
@@ -244,21 +241,22 @@ footer b { color: var(--ink-2); }
     },
   };
 
-  // Language: saved choice, else the browser's preferred languages (Turkish if any is tr-*), else English.
-  const prefersTr = (navigator.languages || [navigator.language || '']).some((l) => /^tr\b/i.test(l));
-  let lang = store.get('lang') || (prefersTr ? 'tr' : 'en');
-  let L = I18N[lang];
-
-  // Clock: saved choice, else the hour cycle of the browser's regional format (en-US -> 12h, tr/de/en-GB -> 24h).
-  // Browsers don't expose the OS "24-hour time" switch, so the toggle covers the cases detection gets wrong.
-  const regional24 = () => {
+  // Language and clock default to the browser's settings: the first of the viewer's preferred languages that we
+  // support, and the hour cycle (12h/24h) of their primary locale (en-US -> 12h; tr, de, en-GB -> 24h). Browsers
+  // don't expose the OS "24-hour time" switch, so a toggle covers the cases detection gets wrong; a toggle is only
+  // remembered while it differs from the browser default, so changing browser settings takes effect again.
+  const prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+  const browserLang = (prefs.map((l) => l.slice(0, 2).toLowerCase()).find((l) => l === 'tr' || l === 'en')) || 'en';
+  const browser24 = (() => {
     try {
-      const hc = new Intl.DateTimeFormat(lang === 'tr' ? 'tr-TR' : navigator.language, { hour: 'numeric' }).resolvedOptions().hourCycle;
-      return hc ? hc === 'h23' || hc === 'h24' : !/AM|PM/i.test(new Date(2000, 0, 1, 13).toLocaleTimeString(navigator.language));
+      const hc = new Intl.DateTimeFormat(prefs[0], { hour: 'numeric' }).resolvedOptions().hourCycle;
+      return hc ? hc === 'h23' || hc === 'h24' : !/AM|PM/i.test(new Date(2000, 0, 1, 13).toLocaleTimeString(prefs[0]));
     } catch { return true; }
-  };
-  const savedClock = store.get('clock');
-  let h24 = savedClock ? savedClock === '24' : regional24();
+  })();
+  const override = (key, value, dflt) => (value === dflt ? store.del(key) : store.set(key, value));
+  let lang = I18N[store.get('lang')] ? store.get('lang') : browserLang;
+  let L = I18N[lang];
+  let h24 = store.get('clock') ? store.get('clock') === '24' : browser24;
   const ampm = (h) => (h < 12 ? 'AM' : 'PM');
   const h12 = (h) => (h % 12 === 0 ? 12 : h % 12);
   // minutes after midnight -> "08:25" or "8:25 AM", keeping the planner's "(+1)" next-day marker
@@ -371,12 +369,11 @@ footer b { color: var(--ink-2); }
   }
 
   for (const code of ['tr', 'en']) $('lang-' + code).addEventListener('click', () => {
-    lang = code; store.set('lang', code);
-    if (!store.get('clock')) { h24 = regional24(); fillHours(); }
+    lang = code; override('lang', code, browserLang);
     applyLang(); run();
   });
   for (const c of ['24', '12']) $('clock-' + c).addEventListener('click', () => {
-    h24 = c === '24'; store.set('clock', c); fillHours(); applyLang(); run();
+    h24 = c === '24'; override('clock', c, browser24 ? '24' : '12'); fillHours(); applyLang(); run();
   });
   if (store.get('private') === '0') $('private').checked = false;
   $('private').addEventListener('change', () => store.set('private', $('private').checked ? '1' : '0'));
