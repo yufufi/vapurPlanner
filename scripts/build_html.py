@@ -5,6 +5,7 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 db = json.load(open(os.path.join(ROOT, "site", "ferries.json")))
 db.pop("notes", None)
 page = open(os.path.join(ROOT, "scripts", "template.html")).read()
+page = page.replace("/*__MAP__*/", open(os.path.join(ROOT, "data", "map.json")).read())
 page = page.replace("/*__PLANNER__*/", open(os.path.join(ROOT, "site", "planner.js")).read())
 page = page.replace("/*__DB__*/", json.dumps(db, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
 # site/index.html is served as-is (GitHub Pages), so it needs its own document skeleton; the bare page body

@@ -66,6 +66,9 @@ def km(a, b):
 
 
 def main():
+    ppiers = os.path.join(ROOT, "data", "piers.json")  # OSM pier positions (scripts/build_map.py)
+    if os.path.exists(ppiers):
+        COORDS.update({k: tuple(v) for k, v in json.load(open(ppiers)).items()})
     site = json.load(open(os.path.join(ROOT, "data", "site", "lines.json")))
     lines, issues = site["lines"], [f"site: {i}" for i in site.get("issues", [])]
     notes = []

@@ -20,6 +20,12 @@ entirely in the browser.
 - **Day types**: weekday / Saturday / Sunday-and-holiday timetables, plus Friday and Saturday night boats.
   Public holidays for the timetable period are listed in `planner.js`.
 
+## Map
+
+The page shows an optional map (open by default; collapsing it is remembered) drawn from OpenStreetMap coastlines
+and ferry terminals (`scripts/build_map.py` → `data/map.json`, `data/piers.json`). Tap a pier to set From/To; the
+selected journey is drawn on it. Map data © OpenStreetMap contributors (ODbL).
+
 ## Data
 
 | File | What |

@@ -17,6 +17,9 @@
   --walk: #6c8a3a;
   --good: #2c7a55;
   --focus: #c8741c;
+  --water: #d3e5ec;
+  --land: #f6f4ee;
+  --coast: #b3c9d3;
   --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
   --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
@@ -27,6 +30,7 @@
     --ground: #0b1a22; --panel: #11242e; --ink: #e5eef1; --ink-2: #a2b6bf; --ink-3: #6d8591;
     --line: #223945; --sea: #6fb3d2; --sea-soft: #16394a; --funnel: #e79a45;
     --funnel-soft: #3a2a17; --wait: #36505c; --walk: #9cc163; --good: #6cc79a;
+    --water: #0e2d3a; --land: #15262e; --coast: #2b4653;
   }
 }
 :root[data-theme="dark"] {
@@ -34,6 +38,7 @@
   --ground: #0b1a22; --panel: #11242e; --ink: #e5eef1; --ink-2: #a2b6bf; --ink-3: #6d8591;
   --line: #223945; --sea: #6fb3d2; --sea-soft: #16394a; --funnel: #e79a45;
   --funnel-soft: #3a2a17; --wait: #36505c; --walk: #9cc163; --good: #6cc79a;
+  --water: #0e2d3a; --land: #15262e; --coast: #2b4653;
 }
 * { box-sizing: border-box; }
 body { background: var(--ground); color: var(--ink); font: 15px/1.5 var(--body); padding: 0 16px; }
@@ -110,6 +115,35 @@ details.via[open] summary::before { content: "− "; }
 .empty button { font: 600 14px var(--body); border: 0; border-radius: 8px; padding: 8px 12px; background: var(--sea); color: var(--panel); cursor: pointer; margin-top: 10px; }
 footer { color: var(--ink-3); font-size: 12.5px; line-height: 1.55; display: grid; gap: 6px; max-width: 70ch; }
 footer b { color: var(--ink-2); }
+/* ---- map ---- */
+.maptoggle { justify-self: start; display: inline-flex; gap: 6px; align-items: center; font: 600 13px var(--body); color: var(--sea); background: none; border: 0; padding: 2px 0; cursor: pointer; }
+.maptoggle svg { width: 16px; height: 16px; }
+.mapbox { position: relative; height: 340px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--water); }
+.mapbox > svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
+.mapbox > svg.drag { cursor: grabbing; }
+.mapctl { position: absolute; right: 8px; top: 8px; display: grid; gap: 4px; }
+.mapctl button { width: 34px; height: 34px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: 600 17px/1 var(--body); cursor: pointer; }
+.mapattr { position: absolute; left: 6px; bottom: 4px; font-size: 10.5px; color: var(--ink-2); background: var(--land); opacity: .85; padding: 0 5px; border-radius: 5px; pointer-events: none; }
+.pop { position: absolute; transform: translate(-50%, calc(-100% - 14px)); background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 6px; display: flex; gap: 6px; align-items: center; box-shadow: 0 6px 18px rgb(0 0 0 / .18); white-space: nowrap; z-index: 2; }
+.pop b { font-size: 13px; margin: 0 4px; }
+.pop button { font: 600 12.5px var(--body); border: 0; border-radius: 7px; padding: 7px 10px; cursor: pointer; background: var(--sea); color: var(--panel); }
+.pop button.to { background: var(--funnel); }
+.mapbox .land { fill: var(--land); stroke: var(--coast); stroke-width: .8; vector-effect: non-scaling-stroke; }
+.mapbox .pin { fill: var(--panel); stroke: var(--sea); stroke-width: 1.6; vector-effect: non-scaling-stroke; }
+.mapbox .pin.from { fill: var(--sea); }
+.mapbox .pin.to { fill: var(--funnel); stroke: var(--funnel); }
+.mapbox .hit { fill: transparent; cursor: pointer; }
+.mapbox .lbl { font-family: var(--body); font-weight: 600; fill: var(--ink-2); paint-order: stroke; stroke: var(--land); stroke-linejoin: round; pointer-events: none; }
+.mapbox .lbl.key { fill: var(--ink); }
+.mapbox .rt { fill: none; stroke: var(--sea); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.mapbox .rt.odd { stroke: var(--funnel); }
+.mapbox .rt.walk { stroke: var(--walk); stroke-dasharray: 3 6; }
+.mapbox .xf { fill: var(--panel); stroke: var(--ink); stroke-width: 1.8; vector-effect: non-scaling-stroke; }
+.maponly { display: none; }
+.mapopen .j { cursor: pointer; }
+.mapopen .j.onmap { outline: 2px solid var(--funnel); outline-offset: 2px; }
+.mapopen .maponly { display: inline; }
+@media (max-width: 560px) { .mapbox { height: 58vh; max-height: 460px; } }
 @media (max-width: 560px) {
   .route { grid-template-columns: 1fr; }
   .swap { justify-self: end; margin-block: -6px; transform: rotate(90deg); }
@@ -138,6 +172,15 @@ footer b { color: var(--ink-2); }
       <label class="f" for="from"><span data-i18n="from"></span><select id="from"></select></label>
       <button type="button" class="swap" id="swap">⇄</button>
       <label class="f" for="to"><span data-i18n="to"></span><select id="to"></select></label>
+    </div>
+    <button type="button" class="maptoggle" id="maptoggle" aria-expanded="false" aria-controls="mapbox">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 3.5l4-1.5 5 1.5 4-1.5v10.5l-4 1.5-5-1.5-4 1.5z"/><path d="M5.5 2v10.5M10.5 3.5V14"/></svg>
+      <span id="maptoggle-l"></span></button>
+    <div class="mapbox" id="mapbox" hidden>
+      <svg id="map" role="img" aria-label="Map of ferry piers"></svg>
+      <div class="mapctl"><button type="button" id="zin" aria-label="Zoom in">+</button><button type="button" id="zout" aria-label="Zoom out">−</button><button type="button" id="zfit" aria-label="Fit">⤢</button></div>
+      <div class="mapattr">© OpenStreetMap</div>
+      <div class="pop" id="pop" hidden></div>
     </div>
     <div class="when">
       <label class="f" for="date"><span data-i18n="date"></span><input type="date" id="date" min="2026-09-07" max="2027-06-27"></label>
@@ -188,7 +231,7 @@ footer b { color: var(--ink-2); }
       h2: '2 saat', h4: '4 saat', h8: '8 saat', restOfDay: 'günün geri kalanı',
       xfer: 'En az aktarma süresi', timetable: 'Tarife', fromDate: 'tarihe göre', weekday: 'Hafta içi', saturday: 'Cumartesi',
       sunday: 'Pazar / tatil', private: 'Özel işletme vapurlarını dahil et (Turyol, Dentur · yaklaşık saatler)', walk: 'Yakın iskeleler arası kısa yürüyüşe izin ver', tours: 'Boğaz turlarını dahil et',
-      swap: 'Kalkış ve varışı değiştir', hourL: 'Saat', minuteL: 'Dakika',
+      swap: 'Kalkış ve varışı değiştir', mapShow: 'Haritadan seç', mapHide: 'Haritayı gizle', fromHere: 'Buradan', toHere: 'Buraya', onMap: ' · haritada göstermek için dokunun', hourL: 'Saat', minuteL: 'Dakika',
       using: (d, night) => `<b>${d}</b> tarifesi kullanılıyor${night ? ' (gece seferleri dahil)' : ''}.`,
       dayNames: { weekday: 'Hafta içi', saturday: 'Cumartesi', sunday: 'Pazar / resmi tatil' },
       same: 'İki farklı iskele seçin',
@@ -216,7 +259,7 @@ footer b { color: var(--ink-2); }
       h2: '2 hours', h4: '4 hours', h8: '8 hours', restOfDay: 'rest of day',
       xfer: 'Min. change time', timetable: 'Timetable', fromDate: 'from date', weekday: 'Weekday', saturday: 'Saturday',
       sunday: 'Sunday / holiday', private: 'Include private operators (Turyol, Dentur · approximate times)', walk: 'Allow short walks between nearby piers', tours: 'Include Bosphorus tours',
-      swap: 'Swap origin and destination', hourL: 'Hour', minuteL: 'Minute',
+      swap: 'Swap origin and destination', mapShow: 'Pick on map', mapHide: 'Hide map', fromHere: 'From here', toHere: 'To here', onMap: ' · tap one to show it on the map', hourL: 'Hour', minuteL: 'Minute',
       using: (d, night) => `Using the <b>${d}</b> timetable${night ? ' plus night boats' : ''}.`,
       dayNames: { weekday: 'weekday', saturday: 'Saturday', sunday: 'Sunday / holiday' },
       same: 'Pick two different piers',
@@ -292,6 +335,7 @@ footer b { color: var(--ink-2); }
     document.documentElement.lang = lang;
     for (const el of document.querySelectorAll('[data-i18n]')) el.innerHTML = L[el.dataset.i18n];
     $('swap').setAttribute('aria-label', L.swap);
+    if ($('maptoggle-l')) $('maptoggle-l').textContent = $('mapbox').hidden ? L.mapShow : L.mapHide;
     $('lang-tr').setAttribute('aria-pressed', lang === 'tr');
     $('clock-24').setAttribute('aria-pressed', h24);
     $('clock-12').setAttribute('aria-pressed', !h24);
@@ -313,7 +357,7 @@ footer b { color: var(--ink-2); }
 
     const list = $('list');
     list.classList.toggle('h12', !h24);
-    if (from === to) { $('sumh').textContent = L.same; $('sums').textContent = ''; list.innerHTML = ''; return; }
+    if (from === to) { $('sumh').textContent = L.same; $('sums').textContent = ''; list.innerHTML = ''; showOnMap([], 0); return; }
     const opts = { windowMin: +$('win').value, transferMin: +$('xfer').value, allowWalk: $('walk').checked, includeTours: $('tours').checked, includePrivate: $('private').checked };
     if (day !== 'auto') opts.dayTypeOverride = [day];
     const js = P.plan(DB, from, to, date, dep, opts);
@@ -324,13 +368,14 @@ footer b { color: var(--ink-2); }
       list.innerHTML = `<div class="empty">${L.none(clock(dep), clock(dep + opts.windowMin))}
         ${opts.windowMin < 1440 ? `<br><button type="button" id="widen">${L.widen}</button>` : L.tryOther}</div>`;
       const w = $('widen'); if (w) w.onclick = () => { $('win').value = '1440'; run(); };
+      showOnMap([], 0);
       return;
     }
     const earliest = Math.min(...js.map((j) => j.arr));
     const fewest = Math.min(...js.map((j) => j.rides));
     const quickest = Math.min(...js.map((j) => j.arr - j.dep));
     const mostRides = Math.max(...js.map((j) => j.rides));
-    $('sums').textContent = L.options(js.length);
+    $('sums').innerHTML = esc(L.options(js.length)) + `<span class="maponly">${esc(L.onMap)}</span>`;
 
     list.innerHTML = js.map((j, n) => {
       const last = j.legs[j.legs.length - 1];
@@ -359,14 +404,207 @@ footer b { color: var(--ink-2); }
             <div class="line">${l.line.operator ? `<span class="op">${esc(l.line.operator)}</span> ` : ''}${esc(l.line.name)} · ${L.onBoard(l.arr - l.dep)}</div>${l.line.operator ? `<div class="estnote">≈ ${esc(L.privNote(l.line.operator, l.trip.headway_min, l.arrEst === 'model'))}</div>` : ''}${l.trip.note ? `<div class="note">${esc(l.trip.note)}</div>` : ''}${estNote}${via}</span></li>`;
         }
       });
-      return `<article class="j${n === 0 ? ' best' : ''}${j.alt ? ' alt' : ''}">
+      return `<article class="j${n === 0 ? ' best' : ''}${j.alt ? ' alt' : ''}" data-i="${n}">
         <div class="jhead"><span class="times">${clock(j.dep)}<span class="arrow">→</span>${T(j.arr, last.arrEst)}</span>
           <span class="meta">${L.dur(j.arr - j.dep)} · ${L.changes(j.rides - 1)}${j.totalWait ? ' · ' + L.waiting(j.totalWait) : ''}</span>
           <span class="chips">${chips.join('')}</span></div>
         <div class="bar" aria-hidden="true">${bar}</div>
         <ol class="legs">${rows}</ol></article>`;
     }).join('');
+    showOnMap(js, 0);
   }
+
+
+  // ---------------------------------------------------------------- map
+  // An SVG of the land (OpenStreetMap coastline) with every pier. Optional, for picking
+  // From/To by tapping a pier and for drawing the selected journey. Open by default; collapsing it is remembered. Pan by dragging, zoom by wheel/pinch/buttons.
+  const MAP = /*__MAP__*/;
+  const mapBox = $('mapbox'), mapEl = $('map'), pop = $('pop');
+  const MAJOR = new Set(['Eminönü', 'Karaköy', 'Kabataş', 'Beşiktaş', 'Ortaköy', 'Üsküdar', 'Kadıköy', 'Sarıyer', 'Beykoz',
+    'Bostancı', 'Büyükada', 'Heybeliada', 'Eyüpsultan', 'Anadolu Kavağı', 'Bebek', 'İstinye', 'Kanlıca', 'Çengelköy']);
+  const HOME = ['Eminönü', 'Kadıköy', 'Sarıyer', 'Anadolu Kavağı', 'Eyüpsultan', 'Beykoz'];  // default view: central Bosphorus
+  let vb = null, mapReady = false, journeys = [], shownIdx = 0;
+
+  const mapRect = () => mapEl.getBoundingClientRect();
+  const upx = () => vb[2] / mapRect().width;  // map units per screen pixel
+
+  function setView(cx, cy, w, h) {
+    const r = mapRect(), ratio = r.height / r.width;
+    if (h / w > ratio) w = h / ratio; else h = w * ratio;           // match the box's aspect ratio
+    const maxW = MAP.width * 1.15, minW = 20;
+    if (w > maxW) { h *= maxW / w; w = maxW; }
+    if (w < minW) { h *= minW / w; w = minW; }
+    cx = Math.min(Math.max(cx, 0), MAP.width); cy = Math.min(Math.max(cy, 0), MAP.height);
+    vb = [cx - w / 2, cy - h / 2, w, h];
+    renderMap();
+  }
+  function fitPoints(pts, minW = 60) {
+    const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+    const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+    // leave ~80px each side for labels and the zoom buttons, ~40px top/bottom
+    const r = mapRect(), fx = Math.max(1 - 160 / r.width, 0.35), fy = Math.max(1 - 80 / r.height, 0.5);
+    setView((x0 + x1) / 2, (y0 + y1) / 2, Math.max((x1 - x0) / fx, minW), Math.max((y1 - y0) / fy, minW * 0.6));
+  }
+  function zoomAt(px, py, f) {  // px/py in map units
+    const [x, y, w, h] = vb;
+    const nw = w * f, nh = h * f;
+    setView(px - (px - x) * f + nw / 2, py - (py - y) * f + nh / 2, nw, nh);
+  }
+  const toMap = (clientX, clientY) => { const r = mapRect(); return [vb[0] + (clientX - r.left) * upx(), vb[1] + (clientY - r.top) * upx()]; };
+
+  function routeStops(j) {  // [[names...], kind] per leg
+    return j ? j.legs.map((l) => [l.kind === 'ride' ? [l.from, ...l.via, l.to] : [l.from, l.to], l.kind]) : [];
+  }
+
+  function renderMap() {
+    if (!mapReady || !vb) return;
+    mapEl.setAttribute('viewBox', vb.join(' '));
+    const k = upx(), from = $('from').value, to = $('to').value, j = journeys[shownIdx];
+    const legs = routeStops(j), onRoute = new Set(legs.flatMap(([st]) => st));
+    let rt = '';
+    legs.forEach(([st, kind], i) => {
+      const pts = st.map((n) => MAP.piers[n]).filter(Boolean).map((p) => p.join(',')).join(' ');
+      rt += `<polyline class="rt ${kind === 'walk' ? 'walk' : i % 2 ? 'odd' : ''}" points="${pts}"/>`;
+    });
+    legs.slice(1).forEach(([st]) => { const p = MAP.piers[st[0]]; if (p) rt += `<circle class="xf" cx="${p[0]}" cy="${p[1]}" r="${5 * k}"/>`; });
+    $('rtg').innerHTML = rt;
+    // pins, then labels placed greedily in screen space (important ones first) so they never overlap
+    const names = Object.keys(MAP.piers);
+    const rank = (n) => (n === from || n === to ? 0 : onRoute.has(n) ? 1 : MAJOR.has(n) ? 2 : 3);
+    let pins = '', labels = '';
+    const boxes = [];
+    const vis = (x, y) => x >= vb[0] && x <= vb[0] + vb[2] && y >= vb[1] && y <= vb[1] + vb[3];
+    for (const n of names) {
+      const [x, y] = MAP.piers[n], cls = n === from ? 'from' : n === to ? 'to' : '';
+      const r = (cls ? 6.5 : 4.5) * k;
+      pins += `<circle class="pin ${cls}" cx="${x}" cy="${y}" r="${r}"/><circle class="hit" data-p="${esc(n)}" cx="${x}" cy="${y}" r="${15 * k}"/>`;
+      boxes.push([x - r, y - r, x + r, y + r]);  // pins block labels too
+    }
+    boxes.push([vb[0] + vb[2] - 52 * k, vb[1], vb[0] + vb[2], vb[1] + 132 * k]);  // zoom buttons
+    const fs = 12 * k;
+    for (const n of [...names].sort((a, b) => rank(a) - rank(b))) {
+      const [x, y] = MAP.piers[n];
+      if (!vis(x, y)) continue;
+      const w = n.length * fs * 0.58, h = fs * 1.1, off = 8 * k;
+      const opts = [[x + off, y - h / 2, 'start'], [x - off - w, y - h / 2, 'end'], [x - w / 2, y - off - h, 'middle'], [x - w / 2, y + off, 'middle']];
+      for (const [bx, by, anchor] of opts) {
+        const b = [bx, by, bx + w, by + h];
+        if (b[0] < vb[0] || b[2] > vb[0] + vb[2] || b[1] < vb[1] || b[3] > vb[1] + vb[3]) continue;  // keep labels inside
+        if (boxes.some((o) => b[0] < o[2] && b[2] > o[0] && b[1] < o[3] && b[3] > o[1] && !(o[0] <= x && x <= o[2] && o[1] <= y && y <= o[3] && o[2] - o[0] < 20 * k))) continue;
+        boxes.push(b);
+        const tx = anchor === 'start' ? bx : anchor === 'end' ? bx + w : x;
+        labels += `<text class="lbl ${rank(n) < 2 ? 'key' : ''}" x="${tx}" y="${by + h * 0.8}" text-anchor="${anchor}" style="font-size:${fs}px;stroke-width:${3.5 * k}px">${esc(n)}</text>`;
+        break;
+      }
+    }
+    $('ping').innerHTML = pins + labels;
+    if (!pop.hidden) placePop();
+  }
+
+  function initMap() {
+    if (mapReady) return;
+    mapEl.innerHTML = `<g>${MAP.land.map((d) => `<path class="land" d="${d}"/>`).join('')}</g><g id="rtg"></g><g id="ping"></g>`;
+    mapReady = true;
+    new ResizeObserver(() => { if (vb) setView(vb[0] + vb[2] / 2, vb[1] + vb[3] / 2, vb[2], vb[3]); }).observe(mapBox);
+  }
+  function fitCurrent() {
+    const j = journeys[shownIdx];
+    const names = j ? routeStops(j).flatMap(([st]) => st) : [$('from').value, $('to').value];
+    const pts = names.map((n) => MAP.piers[n]).filter(Boolean);
+    if (pts.length) fitPoints(pts); else fitPoints(HOME.map((n) => MAP.piers[n]));
+  }
+  function showOnMap(js, idx) {
+    journeys = js; shownIdx = idx;
+    for (const el of document.querySelectorAll('.j')) el.classList.toggle('onmap', +el.dataset.i === idx);
+    if (!mapBox.hidden) fitCurrent();
+  }
+
+  // pier popup: From here / To here
+  let popPier = null;
+  function placePop() {
+    const [x, y] = MAP.piers[popPier], k = upx();
+    pop.style.left = `${(x - vb[0]) / k}px`; pop.style.top = `${(y - vb[1]) / k}px`;
+  }
+  function openPop(n) {
+    popPier = n;
+    pop.innerHTML = `<b>${esc(n)}</b><button type="button" data-set="from">${L.fromHere}</button><button type="button" class="to" data-set="to">${L.toHere}</button>`;
+    pop.hidden = false; placePop();
+  }
+  pop.addEventListener('click', (e) => {
+    const which = e.target.dataset && e.target.dataset.set;
+    if (!which) return;
+    const other = which === 'from' ? 'to' : 'from';
+    if ($(other).value === popPier) $(other).value = $(which).value;  // picking the other end's pier swaps them
+    $(which).value = popPier;
+    pop.hidden = true; run();
+  });
+
+  // pan / pinch / tap
+  const ptrs = new Map();
+  let gesture = null;
+  mapEl.addEventListener('pointerdown', (e) => {
+    mapEl.setPointerCapture(e.pointerId);
+    ptrs.set(e.pointerId, [e.clientX, e.clientY]);
+    const ps = [...ptrs.values()];
+    gesture = ps.length === 1
+      ? { kind: 'pan', start: ps[0], vb: [...vb], moved: 0, target: e.target }
+      : { kind: 'pinch', d: Math.hypot(ps[0][0] - ps[1][0], ps[0][1] - ps[1][1]), vb: [...vb], moved: 99 };
+  });
+  mapEl.addEventListener('pointermove', (e) => {
+    if (!ptrs.has(e.pointerId) || !gesture) return;
+    ptrs.set(e.pointerId, [e.clientX, e.clientY]);
+    const ps = [...ptrs.values()];
+    if (gesture.kind === 'pan' && ps.length === 1) {
+      const dx = ps[0][0] - gesture.start[0], dy = ps[0][1] - gesture.start[1];
+      gesture.moved = Math.max(gesture.moved, Math.hypot(dx, dy));
+      if (gesture.moved < 4) return;
+      mapEl.classList.add('drag'); pop.hidden = true;
+      const k = gesture.vb[2] / mapRect().width;
+      setView(gesture.vb[0] - dx * k + gesture.vb[2] / 2, gesture.vb[1] - dy * k + gesture.vb[3] / 2, gesture.vb[2], gesture.vb[3]);
+    } else if (gesture.kind === 'pinch' && ps.length === 2) {
+      const d = Math.hypot(ps[0][0] - ps[1][0], ps[0][1] - ps[1][1]);
+      const [mx, my] = toMap((ps[0][0] + ps[1][0]) / 2, (ps[0][1] + ps[1][1]) / 2);
+      const f = (gesture.vb[2] * gesture.d / d) / vb[2];
+      pop.hidden = true; zoomAt(mx, my, f);
+    }
+  });
+  const endPtr = (e) => {
+    ptrs.delete(e.pointerId);
+    mapEl.classList.remove('drag');
+    if (gesture && gesture.kind === 'pan' && gesture.moved < 4 && ptrs.size === 0) {
+      const n = gesture.target && gesture.target.dataset && gesture.target.dataset.p;
+      if (n) openPop(n); else pop.hidden = true;
+    }
+    if (ptrs.size === 0) gesture = null;
+  };
+  mapEl.addEventListener('pointerup', endPtr);
+  mapEl.addEventListener('pointercancel', endPtr);
+  mapEl.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const [mx, my] = toMap(e.clientX, e.clientY);
+    zoomAt(mx, my, Math.exp(e.deltaY * (e.ctrlKey ? 0.01 : 0.0022)));
+  }, { passive: false });
+  mapEl.addEventListener('dblclick', (e) => { const [mx, my] = toMap(e.clientX, e.clientY); zoomAt(mx, my, 0.5); });
+  $('zin').addEventListener('click', () => zoomAt(vb[0] + vb[2] / 2, vb[1] + vb[3] / 2, 0.6));
+  $('zout').addEventListener('click', () => zoomAt(vb[0] + vb[2] / 2, vb[1] + vb[3] / 2, 1 / 0.6));
+  $('zfit').addEventListener('click', fitCurrent);
+
+  // results: tap a journey to draw it
+  $('list').addEventListener('click', (e) => {
+    if (mapBox.hidden || e.target.closest('summary')) return;
+    const card = e.target.closest('.j');
+    if (card) { showOnMap(journeys, +card.dataset.i); renderMap(); }
+  });
+
+  function setMapOpen(open) {
+    mapBox.hidden = !open;
+    document.body.classList.toggle('mapopen', open);
+    $('maptoggle').setAttribute('aria-expanded', open);
+    $('maptoggle-l').textContent = open ? L.mapHide : L.mapShow;
+    if (open) { initMap(); requestAnimationFrame(fitCurrent); }
+    if (open) store.del('map'); else store.set('map', '0');
+  }
+  $('maptoggle').addEventListener('click', () => setMapOpen(mapBox.hidden));
 
   for (const code of ['tr', 'en']) $('lang-' + code).addEventListener('click', () => {
     lang = code; override('lang', code, browserLang);
@@ -382,5 +620,6 @@ footer b { color: var(--ink-2); }
   $('swap').addEventListener('click', () => { const a = $('from').value; $('from').value = $('to').value; $('to').value = a; run(); });
   applyLang();
   run();
+  if (store.get('map') !== '0') setMapOpen(true);  // open by default; stays closed once someone collapses it
 })();
 </script>
